@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\lddmm_data.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyAPI.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyParameters.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\MultiImageRegistrationHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\AffineCostFunctions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\FastLinearInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\FastWarpCompositeImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\FastWarpCompositeImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\JacobianDeterminantImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\JacobianDeterminantImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiComponentImageMetricBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiComponentImageMetricBase.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiComponentMetricReport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiComponentMutualInfoImageMetric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiComponentMutualInfoImageMetric.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiComponentNCCImageMetric.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiComponentNCCImageMetric.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiImageAffineMSDMetricFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiImageAffineMSDMetricFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiImageOpticalFlowImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\MultiImageOpticalFlowImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\OneDimensionalInPlaceAccumulateFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\OneDimensionalInPlaceAccumulateFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\SimpleWarpImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\SimpleWarpImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\itkGaussianInterpolateImageFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\itkOptVectorLinearInterpolateImageFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include\itkOptVectorLinearInterpolateImageFunction.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\lddmm_common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\lddmm_data.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\AffineCostFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\AffineTransformUtilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\MultiImageRegistrationHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\CommandLineHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8BC20A2-703B-3E43-9D06-CC3D107A8537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5F6F7CED-756C-3C0E-BF3E-EDFEA23A751B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

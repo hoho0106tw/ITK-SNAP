@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Renderer\OrientationWidget\Test_OrientationWidget\OrientationWidgetGUI.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Renderer\OrientationWidget\Test_OrientationWidget\main.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Renderer\OrientationWidget\Test_OrientationWidget\moc_OrientationWidgetGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Renderer\OrientationWidget\Test_OrientationWidget\OrientationWidgetGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_OrientationWidgetGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\CMakeLists.txt" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Renderer\OrientationWidget\Test_OrientationWidget\OrientationWidgetGUI.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\cdfdd6f09255a703ac957a53ffdd385b\moc_OrientationWidgetGUI.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8BC20A2-703B-3E43-9D06-CC3D107A8537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5F6F7CED-756C-3C0E-BF3E-EDFEA23A751B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{081B7227-36D8-3CBE-86E3-D152D04851AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

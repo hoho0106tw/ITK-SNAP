@@ -1,0 +1,363 @@
+﻿已經開始建置於 2021/6/30 上午 11:13:05。
+     1>節點 4 (Build 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\INSTALL.vcxproj"。
+     1>PostBuildEvent:
+         setlocal
+         "C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=Release -P cmake_install.cmake
+         if %errorlevel% neq 0 goto :cmEnd
+         :cmEnd
+         endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+         :cmErrorLevel
+         exit /b %1
+         :cmDone
+         if %errorlevel% neq 0 goto :VCEnd
+         :VCEnd
+         -- Install configuration: "Release"
+         -- Installing: C:/Program Files/SNAP/bin/ITK-SNAP.exe
+         -- Up-to-date: C:/Program Files/SNAP/bin/imageformats/qgif.dll
+         -- Up-to-date: C:/Program Files/SNAP/bin/platforms/qwindows.dll
+         -- fixup_qt5_executable
+         --   executable='C:/Program Files/SNAP/bin/ITK-SNAP.exe'
+         --   qtplugins=''
+         --   libs='C:/Program Files/SNAP/bin/imageformats/qgif.dll;C:/Program Files/SNAP/bin/platforms/qwindows.dll'
+         --   dirs='C:/Program Files/VTK/bin;C:/Qt/Qt5.6.2/5.6/msvc2015_64/lib;C:/Qt/Qt5.6.2/5.6/msvc2015_64/bin'
+         --   plugins_dir=''
+         --   request_qt_conf=''
+         -- Calling fixup_bundle("C:/Program Files/SNAP/bin/ITK-SNAP.exe" "C:/Program Files/SNAP/bin/imageformats/qgif.dll;C:/Program Files/SNAP/bin/platforms/qwindows.dll" "C:/Program Files/VTK/bin;C:/Qt/Qt5.6.2/5.6/msvc2015_64/lib;C:/Qt/Qt5.6.2/5.6/msvc2015_64/bin")
+         -- fixup_bundle
+         --   app='C:/Program Files/SNAP/bin/ITK-SNAP.exe'
+         --   libs='C:/Program Files/SNAP/bin/imageformats/qgif.dll;C:/Program Files/SNAP/bin/platforms/qwindows.dll'
+         --   dirs='C:/Program Files/VTK/bin;C:/Qt/Qt5.6.2/5.6/msvc2015_64/lib;C:/Qt/Qt5.6.2/5.6/msvc2015_64/bin'
+         --   ignoreItems=''
+         -- fixup_bundle: preparing...
+         -- fixup_bundle: copying...
+         -- 1/204: *NOT* copying 'C:/Program Files/SNAP/bin/ITK-SNAP.exe'
+         -- 2/204: *NOT* copying 'C:/Program Files/SNAP/bin/imageformats/qgif.dll'
+         -- 3/204: copying 'C:/Program Files/SNAP/bin/Qt5Core.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 4/204: copying 'C:/Program Files/SNAP/bin/Qt5Gui.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 5/204: *NOT* copying 'C:/Program Files/SNAP/bin/platforms/qwindows.dll'
+         -- 6/204: copying 'C:/Program Files/SNAP/bin/ITKCommon-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 7/204: copying 'C:/Program Files/SNAP/bin/ITKIOBMP-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 8/204: copying 'C:/Program Files/SNAP/bin/ITKIOBioRad-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 9/204: copying 'C:/Program Files/SNAP/bin/ITKIOGDCM-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 10/204: copying 'C:/Program Files/SNAP/bin/ITKIOGE-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 11/204: copying 'C:/Program Files/SNAP/bin/ITKIOGIPL-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 12/204: copying 'C:/Program Files/SNAP/bin/ITKIOHDF5-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 13/204: copying 'C:/Program Files/SNAP/bin/ITKIOIPL-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 14/204: copying 'C:/Program Files/SNAP/bin/ITKIOImageBase-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 15/204: copying 'C:/Program Files/SNAP/bin/ITKIOJPEG-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 16/204: copying 'C:/Program Files/SNAP/bin/ITKIOLSM-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 17/204: copying 'C:/Program Files/SNAP/bin/ITKIOMRC-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 18/204: copying 'C:/Program Files/SNAP/bin/ITKIOMeta-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 19/204: copying 'C:/Program Files/SNAP/bin/ITKIONIFTI-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 20/204: copying 'C:/Program Files/SNAP/bin/ITKIONRRD-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 21/204: copying 'C:/Program Files/SNAP/bin/ITKIOPNG-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 22/204: copying 'C:/Program Files/SNAP/bin/ITKIOSiemens-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 23/204: copying 'C:/Program Files/SNAP/bin/ITKIOStimulate-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 24/204: copying 'C:/Program Files/SNAP/bin/ITKIOTIFF-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 25/204: copying 'C:/Program Files/SNAP/bin/ITKIOTransformBase-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 26/204: copying 'C:/Program Files/SNAP/bin/ITKIOTransformHDF5-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 27/204: copying 'C:/Program Files/SNAP/bin/ITKIOTransformInsightLegacy-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 28/204: copying 'C:/Program Files/SNAP/bin/ITKIOTransformMatlab-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 29/204: copying 'C:/Program Files/SNAP/bin/ITKIOVTK-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 30/204: copying 'C:/Program Files/SNAP/bin/ITKIOXML-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 31/204: copying 'C:/Program Files/SNAP/bin/ITKTransform-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 32/204: copying 'C:/Program Files/SNAP/bin/ITKVTK-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 33/204: copying 'C:/Program Files/SNAP/bin/ITKWatersheds-4.12.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 34/204: copying 'C:/Program Files/SNAP/bin/Qt5Network.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 35/204: copying 'C:/Program Files/SNAP/bin/Qt5OpenGL.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 36/204: copying 'C:/Program Files/SNAP/bin/Qt5Qml.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 37/204: copying 'C:/Program Files/SNAP/bin/Qt5Widgets.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 38/204: copying 'C:/Program Files/SNAP/bin/vtkChartsCore-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 39/204: copying 'C:/Program Files/SNAP/bin/vtkCommonColor-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 40/204: copying 'C:/Program Files/SNAP/bin/vtkCommonComputationalGeometry-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 41/204: copying 'C:/Program Files/SNAP/bin/vtkCommonCore-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 42/204: copying 'C:/Program Files/SNAP/bin/vtkCommonDataModel-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 43/204: copying 'C:/Program Files/SNAP/bin/vtkCommonExecutionModel-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 44/204: copying 'C:/Program Files/SNAP/bin/vtkCommonMath-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 45/204: copying 'C:/Program Files/SNAP/bin/vtkCommonMisc-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 46/204: copying 'C:/Program Files/SNAP/bin/vtkCommonSystem-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 47/204: copying 'C:/Program Files/SNAP/bin/vtkCommonTransforms-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 48/204: copying 'C:/Program Files/SNAP/bin/vtkDICOMParser-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 49/204: copying 'C:/Program Files/SNAP/bin/vtkFiltersCore-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 50/204: copying 'C:/Program Files/SNAP/bin/vtkFiltersExtraction-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 51/204: copying 'C:/Program Files/SNAP/bin/vtkFiltersGeneral-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 52/204: copying 'C:/Program Files/SNAP/bin/vtkFiltersGeometry-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 53/204: copying 'C:/Program Files/SNAP/bin/vtkFiltersHybrid-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 54/204: copying 'C:/Program Files/SNAP/bin/vtkFiltersModeling-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 55/204: copying 'C:/Program Files/SNAP/bin/vtkFiltersSources-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 56/204: copying 'C:/Program Files/SNAP/bin/vtkFiltersStatistics-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 57/204: copying 'C:/Program Files/SNAP/bin/vtkIOCore-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 58/204: copying 'C:/Program Files/SNAP/bin/vtkIOExport-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 59/204: copying 'C:/Program Files/SNAP/bin/vtkIOGeometry-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 60/204: copying 'C:/Program Files/SNAP/bin/vtkIOImage-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 61/204: copying 'C:/Program Files/SNAP/bin/vtkIOLegacy-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 62/204: copying 'C:/Program Files/SNAP/bin/vtkImagingColor-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 63/204: copying 'C:/Program Files/SNAP/bin/vtkImagingCore-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 64/204: copying 'C:/Program Files/SNAP/bin/vtkImagingFourier-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 65/204: copying 'C:/Program Files/SNAP/bin/vtkImagingGeneral-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 66/204: copying 'C:/Program Files/SNAP/bin/vtkImagingHybrid-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 67/204: copying 'C:/Program Files/SNAP/bin/vtkImagingSources-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 68/204: copying 'C:/Program Files/SNAP/bin/vtkInfovisCore-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 69/204: copying 'C:/Program Files/SNAP/bin/vtkInteractionStyle-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 70/204: copying 'C:/Program Files/SNAP/bin/vtkInteractionWidgets-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 71/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingAnnotation-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 72/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingContext2D-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 73/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingContextOpenGL-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 74/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingCore-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 75/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingFreeType-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 76/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingGL2PS-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 77/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingLabel-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 78/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingOpenGL-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 79/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingVolume-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 80/204: copying 'C:/Program Files/SNAP/bin/vtkRenderingVolumeOpenGL-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 81/204: copying 'C:/Program Files/SNAP/bin/vtkViewsContext2D-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 82/204: copying 'C:/Program Files/SNAP/bin/vtkViewsCore-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 83/204: copying 'C:/Program Files/SNAP/bin/vtkalglib-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 84/204: copying 'C:/Program Files/SNAP/bin/vtkfreetype-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 85/204: copying 'C:/Program Files/SNAP/bin/vtkftgl-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 86/204: copying 'C:/Program Files/SNAP/bin/vtkgl2ps-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 87/204: copying 'C:/Program Files/SNAP/bin/vtkjpeg-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 88/204: copying 'C:/Program Files/SNAP/bin/vtkmetaio-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 89/204: copying 'C:/Program Files/SNAP/bin/vtkpng-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 90/204: copying 'C:/Program Files/SNAP/bin/vtksys-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 91/204: copying 'C:/Program Files/SNAP/bin/vtktiff-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 92/204: copying 'C:/Program Files/SNAP/bin/vtkzlib-6.3.dll'
+     1>EXEC : -- warning : resolved_item == resolved_embedded_item - not copying...
+         -- 93/204: *NOT* copying 'C:/Program Files/SNAP/bin/c2d.exe'
+         -- 94/204: copying 'C:/Program Files/ITK/bin/ITKLabelMap-4.12.dll'
+         -- 95/204: copying 'C:/Program Files/ITK/bin/ITKOptimizers-4.12.dll'
+         -- 96/204: copying 'C:/Program Files/ITK/bin/ITKStatistics-4.12.dll'
+         -- 97/204: *NOT* copying 'C:/Program Files/SNAP/bin/c3d.exe'
+         -- 98/204: *NOT* copying 'C:/Program Files/SNAP/bin/c3d_affine_tool.exe'
+         -- 99/204: *NOT* copying 'C:/Program Files/SNAP/bin/c4d.exe'
+         -- 100/204: *NOT* copying 'C:/Program Files/SNAP/bin/greedy.exe'
+         -- 101/204: copying 'C:/Program Files/ITK/bin/ITKIOMesh-4.12.dll'
+         -- 102/204: *NOT* copying 'C:/Program Files/SNAP/bin/itksnap-wt.exe'
+         -- fixup_bundle: fixing...
+         -- 103/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITK-SNAP.exe'
+         -- 104/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/imageformats/qgif.dll'
+         -- 105/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/Qt5Core.dll'
+         -- 106/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/Qt5Gui.dll'
+         -- 107/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/platforms/qwindows.dll'
+         -- 108/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKCommon-4.12.dll'
+         -- 109/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOBMP-4.12.dll'
+         -- 110/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOBioRad-4.12.dll'
+         -- 111/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOGDCM-4.12.dll'
+         -- 112/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOGE-4.12.dll'
+         -- 113/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOGIPL-4.12.dll'
+         -- 114/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOHDF5-4.12.dll'
+         -- 115/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOIPL-4.12.dll'
+         -- 116/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOImageBase-4.12.dll'
+         -- 117/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOJPEG-4.12.dll'
+         -- 118/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOLSM-4.12.dll'
+         -- 119/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOMRC-4.12.dll'
+         -- 120/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOMeta-4.12.dll'
+         -- 121/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIONIFTI-4.12.dll'
+         -- 122/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIONRRD-4.12.dll'
+         -- 123/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOPNG-4.12.dll'
+         -- 124/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOSiemens-4.12.dll'
+         -- 125/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOStimulate-4.12.dll'
+         -- 126/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOTIFF-4.12.dll'
+         -- 127/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOTransformBase-4.12.dll'
+         -- 128/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOTransformHDF5-4.12.dll'
+         -- 129/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOTransformInsightLegacy-4.12.dll'
+         -- 130/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOTransformMatlab-4.12.dll'
+         -- 131/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOVTK-4.12.dll'
+         -- 132/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOXML-4.12.dll'
+         -- 133/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKTransform-4.12.dll'
+         -- 134/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKVTK-4.12.dll'
+         -- 135/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKWatersheds-4.12.dll'
+         -- 136/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/Qt5Network.dll'
+         -- 137/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/Qt5OpenGL.dll'
+         -- 138/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/Qt5Qml.dll'
+         -- 139/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/Qt5Widgets.dll'
+         -- 140/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkChartsCore-6.3.dll'
+         -- 141/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonColor-6.3.dll'
+         -- 142/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonComputationalGeometry-6.3.dll'
+         -- 143/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonCore-6.3.dll'
+         -- 144/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonDataModel-6.3.dll'
+         -- 145/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonExecutionModel-6.3.dll'
+         -- 146/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonMath-6.3.dll'
+         -- 147/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonMisc-6.3.dll'
+         -- 148/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonSystem-6.3.dll'
+         -- 149/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkCommonTransforms-6.3.dll'
+         -- 150/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkDICOMParser-6.3.dll'
+         -- 151/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkFiltersCore-6.3.dll'
+         -- 152/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkFiltersExtraction-6.3.dll'
+         -- 153/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkFiltersGeneral-6.3.dll'
+         -- 154/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkFiltersGeometry-6.3.dll'
+         -- 155/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkFiltersHybrid-6.3.dll'
+         -- 156/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkFiltersModeling-6.3.dll'
+         -- 157/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkFiltersSources-6.3.dll'
+         -- 158/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkFiltersStatistics-6.3.dll'
+         -- 159/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkIOCore-6.3.dll'
+         -- 160/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkIOExport-6.3.dll'
+         -- 161/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkIOGeometry-6.3.dll'
+         -- 162/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkIOImage-6.3.dll'
+         -- 163/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkIOLegacy-6.3.dll'
+         -- 164/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkImagingColor-6.3.dll'
+         -- 165/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkImagingCore-6.3.dll'
+         -- 166/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkImagingFourier-6.3.dll'
+         -- 167/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkImagingGeneral-6.3.dll'
+         -- 168/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkImagingHybrid-6.3.dll'
+         -- 169/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkImagingSources-6.3.dll'
+         -- 170/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkInfovisCore-6.3.dll'
+         -- 171/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkInteractionStyle-6.3.dll'
+         -- 172/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkInteractionWidgets-6.3.dll'
+         -- 173/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingAnnotation-6.3.dll'
+         -- 174/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingContext2D-6.3.dll'
+         -- 175/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingContextOpenGL-6.3.dll'
+         -- 176/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingCore-6.3.dll'
+         -- 177/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingFreeType-6.3.dll'
+         -- 178/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingGL2PS-6.3.dll'
+         -- 179/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingLabel-6.3.dll'
+         -- 180/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingOpenGL-6.3.dll'
+         -- 181/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingVolume-6.3.dll'
+         -- 182/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkRenderingVolumeOpenGL-6.3.dll'
+         -- 183/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkViewsContext2D-6.3.dll'
+         -- 184/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkViewsCore-6.3.dll'
+         -- 185/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkalglib-6.3.dll'
+         -- 186/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkfreetype-6.3.dll'
+         -- 187/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkftgl-6.3.dll'
+         -- 188/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkgl2ps-6.3.dll'
+         -- 189/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkjpeg-6.3.dll'
+         -- 190/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkmetaio-6.3.dll'
+         -- 191/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkpng-6.3.dll'
+         -- 192/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtksys-6.3.dll'
+         -- 193/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtktiff-6.3.dll'
+         -- 194/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/vtkzlib-6.3.dll'
+         -- 195/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/c2d.exe'
+         -- 196/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKLabelMap-4.12.dll'
+         -- 197/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKOptimizers-4.12.dll'
+         -- 198/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKStatistics-4.12.dll'
+         -- 199/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/c3d.exe'
+         -- 200/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/c3d_affine_tool.exe'
+         -- 201/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/c4d.exe'
+         -- 202/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/greedy.exe'
+         -- 203/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/ITKIOMesh-4.12.dll'
+         -- 204/204: fix-up not required on this platform 'C:/Program Files/SNAP/bin/itksnap-wt.exe'
+         -- fixup_bundle: cleaning up...
+         -- fixup_bundle: verifying...
+         -- ===========================================================================
+         -- Analyzing app='C:/Program Files/SNAP/bin/ITK-SNAP.exe'
+         -- bundle='C:/Program Files/SNAP/bin'
+         -- executable='C:/Program Files/SNAP/bin/ITK-SNAP.exe'
+         -- valid='1'
+         -- executable file 1: C:/Program Files/SNAP/bin/ITK-SNAP.exe
+         -- executable file 2: C:/Program Files/SNAP/bin/c2d.exe
+         -- executable file 3: C:/Program Files/SNAP/bin/c3d.exe
+         -- executable file 4: C:/Program Files/SNAP/bin/c3d_affine_tool.exe
+         -- executable file 5: C:/Program Files/SNAP/bin/c4d.exe
+         -- executable file 6: C:/Program Files/SNAP/bin/greedy.exe
+         -- executable file 7: C:/Program Files/SNAP/bin/itksnap-wt.exe
+         -- verified='1'
+         -- info='Verified 7 executable files in 'C:/Program Files/SNAP/bin''
+         -- 
+         -- verified='1'
+         -- info=''
+         -- 
+         -- fixup_bundle: done
+         -- Installing: C:/Program Files/SNAP/bin/c2d.exe
+         -- Installing: C:/Program Files/SNAP/bin/c3d.exe
+         -- Installing: C:/Program Files/SNAP/bin/c4d.exe
+         -- Installing: C:/Program Files/SNAP/bin/c3d_affine_tool.exe
+         -- Installing: C:/Program Files/SNAP/lib/cnd_adapters.lib
+         -- Installing: C:/Program Files/SNAP/lib/cnd_driver.lib
+         -- Installing: C:/Program Files/SNAP/lib/cnd_api.lib
+         -- Installing: C:/Program Files/SNAP/lib/cnd_maxflow.lib
+         -- Up-to-date: C:/Program Files/SNAP/include/ConvertAPI.h
+         -- Installing: C:/Program Files/SNAP/bin/greedy.exe
+         -- Installing: C:/Program Files/SNAP/bin/itksnap-wt.exe
+     1>專案 "C:\ITKSNAP\itk-snap- bin\INSTALL.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:39.56

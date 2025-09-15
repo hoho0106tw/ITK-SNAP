@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{E9C3AE87-285C-3E8D-9555-BD440124A1C5}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>c3d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\c3d\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">c3d.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">c3d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\c3d\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">c3d.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">c3d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\c3d\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">c3d.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">c3d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\c3d\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">c3d.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">c3d</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE="C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;wldap32.lib;crypt32.lib;winmm.lib;Normaliz.lib;Debug\cnd_driver.lib;Debug\cnd_adapters.lib;Debug\cnd_maxflow.lib;C:\Program Files\ITK\lib\itkdouble-conversion-4.12.lib;C:\Program Files\ITK\lib\itksys-4.12.lib;C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib;C:\Program Files\ITK\lib\itkvnl-4.12.lib;C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib;C:\Program Files\ITK\lib\itknetlib-4.12.lib;C:\Program Files\ITK\lib\itkvcl-4.12.lib;C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib;C:\Program Files\ITK\lib\ITKIOBMP-4.12.lib;C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib;C:\Program Files\ITK\lib\itkzlib-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib;C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib;C:\Program Files\ITK\lib\ITKIOGDCM-4.12.lib;C:\Program Files\ITK\lib\ITKIOGIPL-4.12.lib;C:\Program Files\ITK\lib\itkjpeg-4.12.lib;C:\Program Files\ITK\lib\ITKIOJPEG-4.12.lib;C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib;C:\Program Files\ITK\lib\ITKIOMeta-4.12.lib;C:\Program Files\ITK\lib\ITKznz-4.12.lib;C:\Program Files\ITK\lib\ITKniftiio-4.12.lib;C:\Program Files\ITK\lib\ITKIONIFTI-4.12.lib;C:\Program Files\ITK\lib\ITKNrrdIO-4.12.lib;C:\Program Files\ITK\lib\ITKIONRRD-4.12.lib;C:\Program Files\ITK\lib\itkpng-4.12.lib;C:\Program Files\ITK\lib\ITKIOPNG-4.12.lib;C:\Program Files\ITK\lib\itktiff-4.12.lib;C:\Program Files\ITK\lib\ITKIOVTK-4.12.lib;C:\Program Files\ITK\lib\ITKLabelMap-4.12.lib;C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKPath-4.12.lib;C:\Program Files\ITK\lib\ITKQuadEdgeMesh-4.12.lib;C:\Program Files\ITK\lib\ITKPolynomials-4.12.lib;C:\Program Files\ITK\lib\ITKBiasCorrection-4.12.lib;C:\Program Files\ITK\lib\ITKBioCell-4.12.lib;C:\Program Files\ITK\lib\ITKDICOMParser-4.12.lib;C:\Program Files\ITK\lib\ITKIOSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKFEM-4.12.lib;C:\Program Files\ITK\lib\ITKgiftiio-4.12.lib;C:\Program Files\ITK\lib\ITKIOMesh-4.12.lib;C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib;C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib;C:\Program Files\ITK\lib\ITKGPUAnisotropicSmoothing-4.12.lib;C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib;C:\Program Files\ITK\lib\ITKGPUPDEDeformableRegistration-4.12.lib;C:\Program Files\ITK\lib\ITKGPUSmoothing-4.12.lib;C:\Program Files\ITK\lib\ITKGPUThresholding-4.12.lib;C:\Program Files\ITK\lib\libitkhdf5_cpp.lib;C:\Program Files\ITK\lib\libitkhdf5.lib;C:\Program Files\ITK\lib\ITKIOBioRad-4.12.lib;C:\Program Files\ITK\lib\ITKIOCSV-4.12.lib;C:\Program Files\ITK\lib\ITKIOGE-4.12.lib;C:\Program Files\ITK\lib\ITKIOSiemens-4.12.lib;C:\Program Files\ITK\lib\ITKIOHDF5-4.12.lib;C:\Program Files\ITK\lib\ITKIOLSM-4.12.lib;C:\Program Files\ITK\lib\ITKIOMRC-4.12.lib;C:\Program Files\ITK\lib\ITKIOStimulate-4.12.lib;C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformHDF5-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformInsightLegacy-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformMatlab-4.12.lib;C:\Program Files\ITK\lib\ITKKLMRegionGrowing-4.12.lib;C:\Program Files\ITK\lib\ITKVTK-4.12.lib;C:\Program Files\ITK\lib\ITKWatersheds-4.12.lib;C:\Program Files\ITK\lib\ITKOptimizersv4-4.12.lib;C:\Program Files\ITK\lib\ITKVideoIO-4.12.lib;itkextras\VoxBoIO\Debug\ITKVoxBoIO.lib;itkextras\PovRayIO\Debug\ITKPovRayIO.lib;C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib;C:\Program Files\ITK\lib\itkgdcmIOD-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDSED-4.12.lib;C:\Program Files\ITK\lib\itkgdcmCommon-4.12.lib;crypt32.lib;C:\Program Files\ITK\lib\itkgdcmjpeg8-4.12.lib;C:\Program Files\ITK\lib\itkgdcmjpeg12-4.12.lib;C:\Program Files\ITK\lib\itkgdcmjpeg16-4.12.lib;C:\Program Files\ITK\lib\itkgdcmopenjpeg-4.12.lib;C:\Program Files\ITK\lib\itkgdcmcharls-4.12.lib;rpcrt4.lib;C:\Program Files\ITK\lib\itkjpeg-4.12.lib;C:\Program Files\ITK\lib\ITKIOXML-4.12.lib;C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib;comctl32.lib;wsock32.lib;C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib;C:\Program Files\ITK\lib\ITKniftiio-4.12.lib;C:\Program Files\ITK\lib\ITKznz-4.12.lib;C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib;C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib;C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\OpenCL.lib;C:\Program Files\ITK\lib\itkzlib-4.12.lib;C:\Program Files\ITK\lib\ITKIOIPL-4.12.lib;C:\Program Files\ITK\lib\ITKIOTIFF-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformBase-4.12.lib;C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib;C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKMesh-4.12.lib;C:\Program Files\ITK\lib\ITKTransform-4.12.lib;C:\Program Files\ITK\lib\ITKPath-4.12.lib;C:\Program Files\ITK\lib\ITKOptimizers-4.12.lib;C:\Program Files\ITK\lib\ITKStatistics-4.12.lib;C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib;C:\Program Files\ITK\lib\ITKIOImageBase-4.12.lib;C:\Program Files\ITK\lib\ITKVideoCore-4.12.lib;C:\Program Files\ITK\lib\ITKCommon-4.12.lib;C:\Program Files\ITK\lib\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Program Files\ITK\lib\ITKVNLInstantiation-4.12.lib;C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib;C:\Program Files\ITK\lib\itkvnl-4.12.lib;C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib;C:\Program Files\ITK\lib\itknetlib-4.12.lib;C:\Program Files\ITK\lib\itkvcl-4.12.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ITKSNAP/itk-snap- bin/Submodules/c3d/Debug/c3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ITKSNAP/itk-snap- bin/Submodules/c3d/Debug/c3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE="C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;wldap32.lib;crypt32.lib;winmm.lib;Normaliz.lib;Release\cnd_driver.lib;Release\cnd_adapters.lib;Release\cnd_maxflow.lib;C:\Program Files\ITK\lib\itkdouble-conversion-4.12.lib;C:\Program Files\ITK\lib\itksys-4.12.lib;C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib;C:\Program Files\ITK\lib\itkvnl-4.12.lib;C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib;C:\Program Files\ITK\lib\itknetlib-4.12.lib;C:\Program Files\ITK\lib\itkvcl-4.12.lib;C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib;C:\Program Files\ITK\lib\ITKIOBMP-4.12.lib;C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib;C:\Program Files\ITK\lib\itkzlib-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib;C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib;C:\Program Files\ITK\lib\ITKIOGDCM-4.12.lib;C:\Program Files\ITK\lib\ITKIOGIPL-4.12.lib;C:\Program Files\ITK\lib\itkjpeg-4.12.lib;C:\Program Files\ITK\lib\ITKIOJPEG-4.12.lib;C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib;C:\Program Files\ITK\lib\ITKIOMeta-4.12.lib;C:\Program Files\ITK\lib\ITKznz-4.12.lib;C:\Program Files\ITK\lib\ITKniftiio-4.12.lib;C:\Program Files\ITK\lib\ITKIONIFTI-4.12.lib;C:\Program Files\ITK\lib\ITKNrrdIO-4.12.lib;C:\Program Files\ITK\lib\ITKIONRRD-4.12.lib;C:\Program Files\ITK\lib\itkpng-4.12.lib;C:\Program Files\ITK\lib\ITKIOPNG-4.12.lib;C:\Program Files\ITK\lib\itktiff-4.12.lib;C:\Program Files\ITK\lib\ITKIOVTK-4.12.lib;C:\Program Files\ITK\lib\ITKLabelMap-4.12.lib;C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKPath-4.12.lib;C:\Program Files\ITK\lib\ITKQuadEdgeMesh-4.12.lib;C:\Program Files\ITK\lib\ITKPolynomials-4.12.lib;C:\Program Files\ITK\lib\ITKBiasCorrection-4.12.lib;C:\Program Files\ITK\lib\ITKBioCell-4.12.lib;C:\Program Files\ITK\lib\ITKDICOMParser-4.12.lib;C:\Program Files\ITK\lib\ITKIOSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKFEM-4.12.lib;C:\Program Files\ITK\lib\ITKgiftiio-4.12.lib;C:\Program Files\ITK\lib\ITKIOMesh-4.12.lib;C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib;C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib;C:\Program Files\ITK\lib\ITKGPUAnisotropicSmoothing-4.12.lib;C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib;C:\Program Files\ITK\lib\ITKGPUPDEDeformableRegistration-4.12.lib;C:\Program Files\ITK\lib\ITKGPUSmoothing-4.12.lib;C:\Program Files\ITK\lib\ITKGPUThresholding-4.12.lib;C:\Program Files\ITK\lib\libitkhdf5_cpp.lib;C:\Program Files\ITK\lib\libitkhdf5.lib;C:\Program Files\ITK\lib\ITKIOBioRad-4.12.lib;C:\Program Files\ITK\lib\ITKIOCSV-4.12.lib;C:\Program Files\ITK\lib\ITKIOGE-4.12.lib;C:\Program Files\ITK\lib\ITKIOSiemens-4.12.lib;C:\Program Files\ITK\lib\ITKIOHDF5-4.12.lib;C:\Program Files\ITK\lib\ITKIOLSM-4.12.lib;C:\Program Files\ITK\lib\ITKIOMRC-4.12.lib;C:\Program Files\ITK\lib\ITKIOStimulate-4.12.lib;C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformHDF5-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformInsightLegacy-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformMatlab-4.12.lib;C:\Program Files\ITK\lib\ITKKLMRegionGrowing-4.12.lib;C:\Program Files\ITK\lib\ITKVTK-4.12.lib;C:\Program Files\ITK\lib\ITKWatersheds-4.12.lib;C:\Program Files\ITK\lib\ITKOptimizersv4-4.12.lib;C:\Program Files\ITK\lib\ITKVideoIO-4.12.lib;itkextras\VoxBoIO\Release\ITKVoxBoIO.lib;itkextras\PovRayIO\Release\ITKPovRayIO.lib;C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib;C:\Program Files\ITK\lib\itkgdcmIOD-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDSED-4.12.lib;C:\Program Files\ITK\lib\itkgdcmCommon-4.12.lib;crypt32.lib;C:\Program Files\ITK\lib\itkgdcmjpeg8-4.12.lib;C:\Program Files\ITK\lib\itkgdcmjpeg12-4.12.lib;C:\Program Files\ITK\lib\itkgdcmjpeg16-4.12.lib;C:\Program Files\ITK\lib\itkgdcmopenjpeg-4.12.lib;C:\Program Files\ITK\lib\itkgdcmcharls-4.12.lib;rpcrt4.lib;C:\Program Files\ITK\lib\itkjpeg-4.12.lib;C:\Program Files\ITK\lib\ITKIOXML-4.12.lib;C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib;comctl32.lib;wsock32.lib;C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib;C:\Program Files\ITK\lib\ITKniftiio-4.12.lib;C:\Program Files\ITK\lib\ITKznz-4.12.lib;C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib;C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib;C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\OpenCL.lib;C:\Program Files\ITK\lib\itkzlib-4.12.lib;C:\Program Files\ITK\lib\ITKIOIPL-4.12.lib;C:\Program Files\ITK\lib\ITKIOTIFF-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformBase-4.12.lib;C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib;C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKMesh-4.12.lib;C:\Program Files\ITK\lib\ITKTransform-4.12.lib;C:\Program Files\ITK\lib\ITKPath-4.12.lib;C:\Program Files\ITK\lib\ITKOptimizers-4.12.lib;C:\Program Files\ITK\lib\ITKStatistics-4.12.lib;C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib;C:\Program Files\ITK\lib\ITKIOImageBase-4.12.lib;C:\Program Files\ITK\lib\ITKVideoCore-4.12.lib;C:\Program Files\ITK\lib\ITKCommon-4.12.lib;C:\Program Files\ITK\lib\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Program Files\ITK\lib\ITKVNLInstantiation-4.12.lib;C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib;C:\Program Files\ITK\lib\itkvnl-4.12.lib;C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib;C:\Program Files\ITK\lib\itknetlib-4.12.lib;C:\Program Files\ITK\lib\itkvcl-4.12.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ITKSNAP/itk-snap- bin/Submodules/c3d/Release/c3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ITKSNAP/itk-snap- bin/Submodules/c3d/Release/c3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE="C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;wldap32.lib;crypt32.lib;winmm.lib;Normaliz.lib;MinSizeRel\cnd_driver.lib;MinSizeRel\cnd_adapters.lib;MinSizeRel\cnd_maxflow.lib;C:\Program Files\ITK\lib\itkdouble-conversion-4.12.lib;C:\Program Files\ITK\lib\itksys-4.12.lib;C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib;C:\Program Files\ITK\lib\itkvnl-4.12.lib;C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib;C:\Program Files\ITK\lib\itknetlib-4.12.lib;C:\Program Files\ITK\lib\itkvcl-4.12.lib;C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib;C:\Program Files\ITK\lib\ITKIOBMP-4.12.lib;C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib;C:\Program Files\ITK\lib\itkzlib-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib;C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib;C:\Program Files\ITK\lib\ITKIOGDCM-4.12.lib;C:\Program Files\ITK\lib\ITKIOGIPL-4.12.lib;C:\Program Files\ITK\lib\itkjpeg-4.12.lib;C:\Program Files\ITK\lib\ITKIOJPEG-4.12.lib;C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib;C:\Program Files\ITK\lib\ITKIOMeta-4.12.lib;C:\Program Files\ITK\lib\ITKznz-4.12.lib;C:\Program Files\ITK\lib\ITKniftiio-4.12.lib;C:\Program Files\ITK\lib\ITKIONIFTI-4.12.lib;C:\Program Files\ITK\lib\ITKNrrdIO-4.12.lib;C:\Program Files\ITK\lib\ITKIONRRD-4.12.lib;C:\Program Files\ITK\lib\itkpng-4.12.lib;C:\Program Files\ITK\lib\ITKIOPNG-4.12.lib;C:\Program Files\ITK\lib\itktiff-4.12.lib;C:\Program Files\ITK\lib\ITKIOVTK-4.12.lib;C:\Program Files\ITK\lib\ITKLabelMap-4.12.lib;C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKPath-4.12.lib;C:\Program Files\ITK\lib\ITKQuadEdgeMesh-4.12.lib;C:\Program Files\ITK\lib\ITKPolynomials-4.12.lib;C:\Program Files\ITK\lib\ITKBiasCorrection-4.12.lib;C:\Program Files\ITK\lib\ITKBioCell-4.12.lib;C:\Program Files\ITK\lib\ITKDICOMParser-4.12.lib;C:\Program Files\ITK\lib\ITKIOSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKFEM-4.12.lib;C:\Program Files\ITK\lib\ITKgiftiio-4.12.lib;C:\Program Files\ITK\lib\ITKIOMesh-4.12.lib;C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib;C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib;C:\Program Files\ITK\lib\ITKGPUAnisotropicSmoothing-4.12.lib;C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib;C:\Program Files\ITK\lib\ITKGPUPDEDeformableRegistration-4.12.lib;C:\Program Files\ITK\lib\ITKGPUSmoothing-4.12.lib;C:\Program Files\ITK\lib\ITKGPUThresholding-4.12.lib;C:\Program Files\ITK\lib\libitkhdf5_cpp.lib;C:\Program Files\ITK\lib\libitkhdf5.lib;C:\Program Files\ITK\lib\ITKIOBioRad-4.12.lib;C:\Program Files\ITK\lib\ITKIOCSV-4.12.lib;C:\Program Files\ITK\lib\ITKIOGE-4.12.lib;C:\Program Files\ITK\lib\ITKIOSiemens-4.12.lib;C:\Program Files\ITK\lib\ITKIOHDF5-4.12.lib;C:\Program Files\ITK\lib\ITKIOLSM-4.12.lib;C:\Program Files\ITK\lib\ITKIOMRC-4.12.lib;C:\Program Files\ITK\lib\ITKIOStimulate-4.12.lib;C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformHDF5-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformInsightLegacy-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformMatlab-4.12.lib;C:\Program Files\ITK\lib\ITKKLMRegionGrowing-4.12.lib;C:\Program Files\ITK\lib\ITKVTK-4.12.lib;C:\Program Files\ITK\lib\ITKWatersheds-4.12.lib;C:\Program Files\ITK\lib\ITKOptimizersv4-4.12.lib;C:\Program Files\ITK\lib\ITKVideoIO-4.12.lib;itkextras\VoxBoIO\MinSizeRel\ITKVoxBoIO.lib;itkextras\PovRayIO\MinSizeRel\ITKPovRayIO.lib;C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib;C:\Program Files\ITK\lib\itkgdcmIOD-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDSED-4.12.lib;C:\Program Files\ITK\lib\itkgdcmCommon-4.12.lib;crypt32.lib;C:\Program Files\ITK\lib\itkgdcmjpeg8-4.12.lib;C:\Program Files\ITK\lib\itkgdcmjpeg12-4.12.lib;C:\Program Files\ITK\lib\itkgdcmjpeg16-4.12.lib;C:\Program Files\ITK\lib\itkgdcmopenjpeg-4.12.lib;C:\Program Files\ITK\lib\itkgdcmcharls-4.12.lib;rpcrt4.lib;C:\Program Files\ITK\lib\itkjpeg-4.12.lib;C:\Program Files\ITK\lib\ITKIOXML-4.12.lib;C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib;comctl32.lib;wsock32.lib;C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib;C:\Program Files\ITK\lib\ITKniftiio-4.12.lib;C:\Program Files\ITK\lib\ITKznz-4.12.lib;C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib;C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib;C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\OpenCL.lib;C:\Program Files\ITK\lib\itkzlib-4.12.lib;C:\Program Files\ITK\lib\ITKIOIPL-4.12.lib;C:\Program Files\ITK\lib\ITKIOTIFF-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformBase-4.12.lib;C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib;C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKMesh-4.12.lib;C:\Program Files\ITK\lib\ITKTransform-4.12.lib;C:\Program Files\ITK\lib\ITKPath-4.12.lib;C:\Program Files\ITK\lib\ITKOptimizers-4.12.lib;C:\Program Files\ITK\lib\ITKStatistics-4.12.lib;C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib;C:\Program Files\ITK\lib\ITKIOImageBase-4.12.lib;C:\Program Files\ITK\lib\ITKVideoCore-4.12.lib;C:\Program Files\ITK\lib\ITKCommon-4.12.lib;C:\Program Files\ITK\lib\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Program Files\ITK\lib\ITKVNLInstantiation-4.12.lib;C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib;C:\Program Files\ITK\lib\itkvnl-4.12.lib;C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib;C:\Program Files\ITK\lib\itknetlib-4.12.lib;C:\Program Files\ITK\lib\itkvcl-4.12.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ITKSNAP/itk-snap- bin/Submodules/c3d/MinSizeRel/c3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ITKSNAP/itk-snap- bin/Submodules/c3d/MinSizeRel/c3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalOptions>%(AdditionalOptions)  /bigobj</AdditionalOptions>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE="C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;ITK_IO_FACTORY_REGISTER_MANAGER;vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL);vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\";vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL);_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\c3d;C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters;C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest;C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture;C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc;C:\ITKSNAP\itk-snap- bin\Submodules\c3d;C:\Program Files\ITK\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions>%(AdditionalOptions)  /machine:x64</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;ws2_32.lib;wldap32.lib;crypt32.lib;winmm.lib;Normaliz.lib;RelWithDebInfo\cnd_driver.lib;RelWithDebInfo\cnd_adapters.lib;RelWithDebInfo\cnd_maxflow.lib;C:\Program Files\ITK\lib\itkdouble-conversion-4.12.lib;C:\Program Files\ITK\lib\itksys-4.12.lib;C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib;C:\Program Files\ITK\lib\itkvnl-4.12.lib;C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib;C:\Program Files\ITK\lib\itknetlib-4.12.lib;C:\Program Files\ITK\lib\itkvcl-4.12.lib;C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib;C:\Program Files\ITK\lib\ITKIOBMP-4.12.lib;C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib;C:\Program Files\ITK\lib\itkzlib-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib;C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib;C:\Program Files\ITK\lib\ITKIOGDCM-4.12.lib;C:\Program Files\ITK\lib\ITKIOGIPL-4.12.lib;C:\Program Files\ITK\lib\itkjpeg-4.12.lib;C:\Program Files\ITK\lib\ITKIOJPEG-4.12.lib;C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib;C:\Program Files\ITK\lib\ITKIOMeta-4.12.lib;C:\Program Files\ITK\lib\ITKznz-4.12.lib;C:\Program Files\ITK\lib\ITKniftiio-4.12.lib;C:\Program Files\ITK\lib\ITKIONIFTI-4.12.lib;C:\Program Files\ITK\lib\ITKNrrdIO-4.12.lib;C:\Program Files\ITK\lib\ITKIONRRD-4.12.lib;C:\Program Files\ITK\lib\itkpng-4.12.lib;C:\Program Files\ITK\lib\ITKIOPNG-4.12.lib;C:\Program Files\ITK\lib\itktiff-4.12.lib;C:\Program Files\ITK\lib\ITKIOVTK-4.12.lib;C:\Program Files\ITK\lib\ITKLabelMap-4.12.lib;C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKPath-4.12.lib;C:\Program Files\ITK\lib\ITKQuadEdgeMesh-4.12.lib;C:\Program Files\ITK\lib\ITKPolynomials-4.12.lib;C:\Program Files\ITK\lib\ITKBiasCorrection-4.12.lib;C:\Program Files\ITK\lib\ITKBioCell-4.12.lib;C:\Program Files\ITK\lib\ITKDICOMParser-4.12.lib;C:\Program Files\ITK\lib\ITKIOSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKFEM-4.12.lib;C:\Program Files\ITK\lib\ITKgiftiio-4.12.lib;C:\Program Files\ITK\lib\ITKIOMesh-4.12.lib;C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib;C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib;C:\Program Files\ITK\lib\ITKGPUAnisotropicSmoothing-4.12.lib;C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib;C:\Program Files\ITK\lib\ITKGPUPDEDeformableRegistration-4.12.lib;C:\Program Files\ITK\lib\ITKGPUSmoothing-4.12.lib;C:\Program Files\ITK\lib\ITKGPUThresholding-4.12.lib;C:\Program Files\ITK\lib\libitkhdf5_cpp.lib;C:\Program Files\ITK\lib\libitkhdf5.lib;C:\Program Files\ITK\lib\ITKIOBioRad-4.12.lib;C:\Program Files\ITK\lib\ITKIOCSV-4.12.lib;C:\Program Files\ITK\lib\ITKIOGE-4.12.lib;C:\Program Files\ITK\lib\ITKIOSiemens-4.12.lib;C:\Program Files\ITK\lib\ITKIOHDF5-4.12.lib;C:\Program Files\ITK\lib\ITKIOLSM-4.12.lib;C:\Program Files\ITK\lib\ITKIOMRC-4.12.lib;C:\Program Files\ITK\lib\ITKIOStimulate-4.12.lib;C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformHDF5-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformInsightLegacy-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformMatlab-4.12.lib;C:\Program Files\ITK\lib\ITKKLMRegionGrowing-4.12.lib;C:\Program Files\ITK\lib\ITKVTK-4.12.lib;C:\Program Files\ITK\lib\ITKWatersheds-4.12.lib;C:\Program Files\ITK\lib\ITKOptimizersv4-4.12.lib;C:\Program Files\ITK\lib\ITKVideoIO-4.12.lib;itkextras\VoxBoIO\RelWithDebInfo\ITKVoxBoIO.lib;itkextras\PovRayIO\RelWithDebInfo\ITKPovRayIO.lib;C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib;C:\Program Files\ITK\lib\itkgdcmIOD-4.12.lib;C:\Program Files\ITK\lib\itkgdcmDSED-4.12.lib;C:\Program Files\ITK\lib\itkgdcmCommon-4.12.lib;crypt32.lib;C:\Program Files\ITK\lib\itkgdcmjpeg8-4.12.lib;C:\Program Files\ITK\lib\itkgdcmjpeg12-4.12.lib;C:\Program Files\ITK\lib\itkgdcmjpeg16-4.12.lib;C:\Program Files\ITK\lib\itkgdcmopenjpeg-4.12.lib;C:\Program Files\ITK\lib\itkgdcmcharls-4.12.lib;rpcrt4.lib;C:\Program Files\ITK\lib\itkjpeg-4.12.lib;C:\Program Files\ITK\lib\ITKIOXML-4.12.lib;C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib;comctl32.lib;wsock32.lib;C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib;C:\Program Files\ITK\lib\ITKniftiio-4.12.lib;C:\Program Files\ITK\lib\ITKznz-4.12.lib;C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib;C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib;C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\OpenCL.lib;C:\Program Files\ITK\lib\itkzlib-4.12.lib;C:\Program Files\ITK\lib\ITKIOIPL-4.12.lib;C:\Program Files\ITK\lib\ITKIOTIFF-4.12.lib;C:\Program Files\ITK\lib\ITKIOTransformBase-4.12.lib;C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib;C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib;C:\Program Files\ITK\lib\ITKMesh-4.12.lib;C:\Program Files\ITK\lib\ITKTransform-4.12.lib;C:\Program Files\ITK\lib\ITKPath-4.12.lib;C:\Program Files\ITK\lib\ITKOptimizers-4.12.lib;C:\Program Files\ITK\lib\ITKStatistics-4.12.lib;C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib;C:\Program Files\ITK\lib\ITKIOImageBase-4.12.lib;C:\Program Files\ITK\lib\ITKVideoCore-4.12.lib;C:\Program Files\ITK\lib\ITKCommon-4.12.lib;C:\Program Files\ITK\lib\itksys-4.12.lib;ws2_32.lib;Psapi.lib;C:\Program Files\ITK\lib\ITKVNLInstantiation-4.12.lib;C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib;C:\Program Files\ITK\lib\itkvnl-4.12.lib;C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib;C:\Program Files\ITK\lib\itknetlib-4.12.lib;C:\Program Files\ITK\lib\itkvcl-4.12.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib;C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/ITKSNAP/itk-snap- bin/Submodules/c3d/RelWithDebInfo/c3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/ITKSNAP/itk-snap- bin/Submodules/c3d/RelWithDebInfo/c3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ITKSNAP/itk-snap-src "-BC:/ITKSNAP/itk-snap- bin" --check-stamp-file "C:/ITKSNAP/itk-snap- bin/Submodules/c3d/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertNDLibrary.cmake;C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageVersion.cxx.in;C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\c3d\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ITKSNAP/itk-snap-src "-BC:/ITKSNAP/itk-snap- bin" --check-stamp-file "C:/ITKSNAP/itk-snap- bin/Submodules/c3d/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertNDLibrary.cmake;C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageVersion.cxx.in;C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\c3d\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ITKSNAP/itk-snap-src "-BC:/ITKSNAP/itk-snap- bin" --check-stamp-file "C:/ITKSNAP/itk-snap- bin/Submodules/c3d/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertNDLibrary.cmake;C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageVersion.cxx.in;C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\c3d\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ITKSNAP/itk-snap-src "-BC:/ITKSNAP/itk-snap- bin" --check-stamp-file "C:/ITKSNAP/itk-snap- bin/Submodules/c3d/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertNDLibrary.cmake;C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageVersion.cxx.in;C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\c3d\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\Convert3DMain.cxx"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\ITKSNAP\itk-snap- bin\ZERO_CHECK.vcxproj">
+      <Project>FC0254CE-1B99-38AC-9ECF-38883B870394</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ITKSNAP\itk-snap- bin\Submodules\c3d\itkextras\PovRayIO\ITKPovRayIO.vcxproj">
+      <Project>8C012CEC-8583-3EAE-B256-3843B57D9C28</Project>
+      <Name>ITKPovRayIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ITKSNAP\itk-snap- bin\Submodules\c3d\itkextras\VoxBoIO\ITKVoxBoIO.vcxproj">
+      <Project>C04A57FC-796F-320A-A4EB-28D32CC2324B</Project>
+      <Name>ITKVoxBoIO</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_adapters.vcxproj">
+      <Project>D53B2886-01E7-3298-9D98-70E1D4BFF342</Project>
+      <Name>cnd_adapters</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_driver.vcxproj">
+      <Project>D7F4677F-0F0A-3DC8-ADF3-452DD7DA543E</Project>
+      <Name>cnd_driver</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_maxflow.vcxproj">
+      <Project>59C9CC81-8E9E-3CFC-85E0-3D919011115C</Project>
+      <Name>cnd_maxflow</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

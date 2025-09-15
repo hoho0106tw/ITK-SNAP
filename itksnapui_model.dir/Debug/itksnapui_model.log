@@ -1,0 +1,130 @@
+﻿已經開始建置於 2021/6/30 上午 10:27:53。
+     1>節點 5 (Build 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\itksnapui_model.vcxproj"。
+     1>CustomBuild:
+         Building Custom Rule C:/ITKSNAP/itk-snap-src/CMakeLists.txt
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /I"C:\Program Files\ITK\include\ITK-4.12" /I"C:\Program Files\VTK\include\vtk-6.3" /I"C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include" /I"C:\ITKSNAP\itk-snap-src\Common" /I"C:\ITKSNAP\itk-snap-src\Common\ITKExtras" /I"C:\ITKSNAP\itk-snap-src\Common\JSon" /I"C:\ITKSNAP\itk-snap-src\Logic" /I"C:\ITKSNAP\itk-snap-src\Logic\Common" /I"C:\ITKSNAP\itk-snap-src\Logic\Framework" /I"C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper" /I"C:\ITKSNAP\itk-snap-src\Logic\LevelSet" /I"C:\ITKSNAP\itk-snap-src\Logic\Mesh" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\Texture" /I"C:\ITKSNAP\itk-snap-src\Logic\RLEImage" /I"C:\ITKSNAP\itk-snap-src\Logic\Slicing" /I"C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\api" /I"C:\ITKSNAP\itk-snap-src\Submodules\greedy\src" /I"C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include" /I"C:\ITKSNAP\itk-snap-src\GUI" /I"C:\ITKSNAP\itk-snap-src\GUI\Model" /I"C:\ITKSNAP\itk-snap-src\GUI\Renderer" /I"C:\ITKSNAP\itk-snap-src\GUI\Renderer\OrientationWidget\Reorient" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Components" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\External" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\External\ColorWheel" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\ModelView" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Testing" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\View" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\Registration" /I"C:\ITKSNAP\itk-snap-src\Testing\Logic" /I"C:\ITKSNAP\itk-snap-src\Testing\GUI\Qt" /I"C:\Program Files\ITK\lib\cmake\ITK-4.12\Utilities\zlib" /I"C:\ITKSNAP\itk-snap- bin" /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtWidgets /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtGui /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtCore /I"C:\Qt\Qt5.6.2\5.6\msvc2015_64\.\mkspecs\win32-msvc2015" /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtOpenGL /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtConcurrent /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtQml /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtNetwork /I"C:\Program Files\ITK\include" /I"C:\Program Files\VTK\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D ITK_IO_FACTORY_REGISTER_MANAGER /D "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)" /D "vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\"" /D "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)" /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"itksnapui_model.dir\Debug\\" /Fd"itksnapui_model.dir\Debug\itksnapui_model.pdb" /Gd /TP /errorReport:prompt   /bigobj "C:\ITKSNAP\itk-snap-src\GUI\Model\CursorInspectionModel.cxx" "C:\ITKSNAP\itk-snap-src\GUI\Model\GlobalUIModel.cxx" "C:\ITKSNAP\itk-snap-src\GUI\Model\IntensityCurveModel.cxx" "C:\ITKSNAP\itk-snap-src\GUI\Model\LayerTableRowModel.cxx" "C:\ITKSNAP\itk-snap-src\GUI\Model\SnakeWizardModel.cxx" "C:\ITKSNAP\itk-snap-src\GUI\Renderer\GenericSliceRenderer.cxx" "C:\ITKSNAP\itk-snap-src\GUI\Renderer\IntensityCurveVTKRenderer.cxx"
+         CursorInspectionModel.cxx
+         GlobalUIModel.cxx
+         IntensityCurveModel.cxx
+         LayerTableRowModel.cxx
+         SnakeWizardModel.cxx
+     1>C:\ITKSNAP\itk-snap-src\GUI\Model\SnakeWizardModel.cxx(1014): warning C4018: '<': signed/unsigned 不相符
+     1>C:\ITKSNAP\itk-snap-src\GUI\Model\SnakeWizardModel.cxx(1117): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(269): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(259): note: 編譯類別 樣板 成員函式 'void ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::AddVectorImage(TVectorImage *)' 時
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType,
+                     TVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(291): note: 請參閱所要編譯的函式 樣板 具現化 'void ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::AddVectorImage(TVectorImage *)' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType,
+                     TVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(229): note: 編譯類別 樣板 成員函式 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<3> &)' 時
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(120): note: 請參閱所要編譯的函式 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<3> &)' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(120): note: 請參閱要編譯的類別 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(89): note: 編譯類別 樣板 成員函式 'void GMMClassifyImageFilter<GMMPreprocessingFilterConfigTraits::GreyScalarType,GMMPreprocessingFilterConfigTraits::GreyVectorType,GMMPreprocessingFilterConfigTraits::SpeedType>::ThreadedGenerateData(const itk::ImageRegion<3> &,itk::ThreadIdType)' 時
+         C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\SlicePreviewFilterWrapper.h(126): note: 請參閱要編譯的類別 樣板 具現化 'GMMClassifyImageFilter<GMMPreprocessingFilterConfigTraits::GreyScalarType,GMMPreprocessingFilterConfigTraits::GreyVectorType,GMMPreprocessingFilterConfigTraits::SpeedType>' 之參考
+         C:\ITKSNAP\itk-snap-src\GUI\Model\SnakeWizardModel.cxx(1634): note: 請參閱要編譯的類別 樣板 具現化 'SlicePreviewFilterWrapper<GMMPreprocessingFilterConfigTraits>' 之參考
+         GenericSliceRenderer.cxx
+         IntensityCurveVTKRenderer.cxx
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\ITKSNAP\itk-snap- bin\Debug\itksnapui_model.lib" /NOLOGO /MACHINE:X64   /machine:x64 itksnapui_model.dir\Debug\AnnotationModel.obj
+         itksnapui_model.dir\Debug\ColorLabelQuickListModel.obj
+         itksnapui_model.dir\Debug\ColorMapModel.obj
+         itksnapui_model.dir\Debug\CursorInspectionModel.obj
+         itksnapui_model.dir\Debug\DisplayLayoutModel.obj
+         itksnapui_model.dir\Debug\DistributedSegmentationModel.obj
+         itksnapui_model.dir\Debug\Generic3DModel.obj
+         itksnapui_model.dir\Debug\GenericSliceModel.obj
+         itksnapui_model.dir\Debug\GlobalPreferencesModel.obj
+         itksnapui_model.dir\Debug\GlobalUIModel.obj
+         itksnapui_model.dir\Debug\ImageIOWizardModel.obj
+         itksnapui_model.dir\Debug\ImageInfoModel.obj
+         itksnapui_model.dir\Debug\IntensityCurveModel.obj
+         itksnapui_model.dir\Debug\InteractiveRegistrationModel.obj
+         itksnapui_model.dir\Debug\InterpolateLabelModel.obj
+         itksnapui_model.dir\Debug\LabelEditorModel.obj
+         itksnapui_model.dir\Debug\LayerGeneralPropertiesModel.obj
+         itksnapui_model.dir\Debug\LayerTableRowModel.obj
+         itksnapui_model.dir\Debug\LayerSelectionModel.obj
+         itksnapui_model.dir\Debug\MeshExportModel.obj
+         itksnapui_model.dir\Debug\OrthogonalSliceCursorNavigationModel.obj
+         itksnapui_model.dir\Debug\PaintbrushModel.obj
+         itksnapui_model.dir\Debug\PaintbrushSettingsModel.obj
+         itksnapui_model.dir\Debug\PolygonDrawingModel.obj
+         itksnapui_model.dir\Debug\PolygonSettingsModel.obj
+         itksnapui_model.dir\Debug\RegistrationModel.obj
+         itksnapui_model.dir\Debug\ReorientImageModel.obj
+         itksnapui_model.dir\Debug\SaveModifiedLayersModel.obj
+         itksnapui_model.dir\Debug\SliceWindowCoordinator.obj
+         itksnapui_model.dir\Debug\SnakeParameterModel.obj
+         itksnapui_model.dir\Debug\SnakeROIModel.obj
+         itksnapui_model.dir\Debug\SnakeROIResampleModel.obj
+         itksnapui_model.dir\Debug\SnakeWizardModel.obj
+         itksnapui_model.dir\Debug\StateManagement.obj
+         itksnapui_model.dir\Debug\SynchronizationModel.obj
+         itksnapui_model.dir\Debug\UIAction.obj
+         itksnapui_model.dir\Debug\UIReporterDelegates.obj
+         itksnapui_model.dir\Debug\AbstractRenderer.obj
+         itksnapui_model.dir\Debug\AbstractVTKRenderer.obj
+         itksnapui_model.dir\Debug\AbstractVTKSceneRenderer.obj
+         itksnapui_model.dir\Debug\AnnotationRenderer.obj
+         itksnapui_model.dir\Debug\ColorMapRenderer.obj
+         itksnapui_model.dir\Debug\CrosshairsRenderer.obj
+         itksnapui_model.dir\Debug\EdgePreprocessingSettingsRenderer.obj
+         itksnapui_model.dir\Debug\GenericSliceRenderer.obj
+         itksnapui_model.dir\Debug\Generic3DRenderer.obj
+         itksnapui_model.dir\Debug\GLToPNG.obj
+         itksnapui_model.dir\Debug\GMMRenderer.obj
+         itksnapui_model.dir\Debug\IntensityCurveVTKRenderer.obj
+         itksnapui_model.dir\Debug\IntensityUnderCursorRenderer.obj
+         itksnapui_model.dir\Debug\LayerHistogramPlotAssembly.obj
+         itksnapui_model.dir\Debug\OpenGLSliceTexture.obj
+         itksnapui_model.dir\Debug\OptimizationProgressRenderer.obj
+         itksnapui_model.dir\Debug\OrientationGraphicRenderer.obj
+         itksnapui_model.dir\Debug\PaintbrushRenderer.obj
+         itksnapui_model.dir\Debug\PolygonDrawingRenderer.obj
+         itksnapui_model.dir\Debug\PolygonScanConvert.obj
+         itksnapui_model.dir\Debug\RegistrationRenderer.obj
+         itksnapui_model.dir\Debug\SliceWindowDecorationRenderer.obj
+         itksnapui_model.dir\Debug\SnakeParameterPreviewRenderer.obj
+         itksnapui_model.dir\Debug\SnakeROIRenderer.obj
+         itksnapui_model.dir\Debug\SnakeModeRenderer.obj
+         itksnapui_model.dir\Debug\ThresholdSettingsRenderer.obj
+         itksnapui_model.dir\Debug\Window3DPicker.obj
+         itksnapui_model.dir\Debug\AbstractScannerHelper.obj
+         itksnapui_model.dir\Debug\AxesWidget.obj
+         itksnapui_model.dir\Debug\ScannedHuman.obj
+         itksnapui_model.dir\Debug\ScanningROI.obj
+         itksnapui_model.dir\Debug\ReorientProps.obj
+         itksnapui_model.dir\Debug\PolyDataAlgorithm2ActorPipe.obj
+         itksnapui_model.vcxproj -> C:\ITKSNAP\itk-snap- bin\Debug\itksnapui_model.lib
+     1>專案 "C:\ITKSNAP\itk-snap- bin\itksnapui_model.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:14.34

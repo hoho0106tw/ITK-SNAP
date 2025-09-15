@@ -1,0 +1,14 @@
+C:/Program Files/SNAP/bin/ITK-SNAP.exe
+C:/Program Files/SNAP/bin/imageformats/qgif.dll
+C:/Program Files/SNAP/bin/platforms/qwindows.dll
+C:/Program Files/SNAP/bin/c2d.exe
+C:/Program Files/SNAP/bin/c3d.exe
+C:/Program Files/SNAP/bin/c4d.exe
+C:/Program Files/SNAP/bin/c3d_affine_tool.exe
+C:/Program Files/SNAP/lib/cnd_adapters.lib
+C:/Program Files/SNAP/lib/cnd_driver.lib
+C:/Program Files/SNAP/lib/cnd_api.lib
+C:/Program Files/SNAP/lib/cnd_maxflow.lib
+C:/Program Files/SNAP/include/ConvertAPI.h
+C:/Program Files/SNAP/bin/greedy.exe
+C:/Program Files/SNAP/bin/itksnap-wt.exe

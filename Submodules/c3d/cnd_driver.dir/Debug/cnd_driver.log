@@ -1,0 +1,18 @@
+﻿已經開始建置於 2021/6/30 上午 10:27:39。
+     1>節點 2 (Build 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_driver.vcxproj"。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /I"C:\Program Files\ITK\include\ITK-4.12" /I"C:\Program Files\VTK\include\vtk-6.3" /I"C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc" /I"C:\ITKSNAP\itk-snap- bin\Submodules\c3d" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D ITK_IO_FACTORY_REGISTER_MANAGER /D "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)" /D "vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\"" /D "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)" /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cnd_driver.dir\Debug\\" /Fd"cnd_driver.dir\Debug\cnd_driver.pdb" /Gd /TP /errorReport:prompt   /bigobj "C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageND.cxx"
+         ConvertImageND.cxx
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageND.cxx(625): warning C4101: 'exc': 未參考的區域變數
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageND.cxx(446): note: 編譯類別 樣板 成員函式 'int ImageConverter<double,2>::ProcessCommand(int,char *[])' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageND.cxx(2319): note: 請參閱所要編譯的函式 樣板 具現化 'int ImageConverter<double,2>::ProcessCommand(int,char *[])' 之參考
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\ConvertImageND.cxx(3155): note: 請參閱要編譯的類別 樣板 具現化 'ImageConverter<double,2>' 之參考
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\ITKSNAP\itk-snap- bin\Submodules\c3d\Debug\cnd_driver.lib" /NOLOGO /MACHINE:X64   /machine:x64 cnd_driver.dir\Debug\ConvertImageND.obj
+         cnd_driver.dir\Debug\Documentation.obj
+         cnd_driver.vcxproj -> C:\ITKSNAP\itk-snap- bin\Submodules\c3d\Debug\cnd_driver.lib
+     1>專案 "C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_driver.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.20

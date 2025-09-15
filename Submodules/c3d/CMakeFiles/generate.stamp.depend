@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt
+C:/ITKSNAP/itk-snap-src/Submodules/c3d/ConvertNDLibrary.cmake
+C:/ITKSNAP/itk-snap-src/Submodules/c3d/ConvertImageVersion.cxx.in

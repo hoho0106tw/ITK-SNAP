@@ -1,0 +1,17 @@
+-IC:/ITKSNAP/itk-snap- bin/ITKIOFactoryRegistration
+-IC:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/include
+-IC:/Program Files/ITK/include/ITK-4.12
+-IC:/Program Files/VTK/include/vtk-6.3
+-IC:/ITKSNAP/cur/builds/libcurl-vc-x64-release-static-ipv6/include
+-DITK_IO_FACTORY_REGISTER_MANAGER
+-DvtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)
+-DvtkRenderingCore_INCLUDE="C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h"
+-DvtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)
+-D_CRT_SECURE_NO_DEPRECATE
+-D_SCL_SECURE_NO_WARNINGS
+-D_CRT_SECURE_NO_WARNINGS
+-DNOMINMAX
+-DWIN32
+-o
+C:/ITKSNAP/itk-snap- bin/GUI/Qt/View/moc_TestOpenGLDialog.cpp
+C:/ITKSNAP/itk-snap-src/GUI/Qt/View/TestOpenGLDialog.h

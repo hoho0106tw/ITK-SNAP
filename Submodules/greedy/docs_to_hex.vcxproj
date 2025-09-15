@@ -1,0 +1,564 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{BAA55699-87D5-33F3-AE87-2311B624DF16}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.10240.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>docs_to_hex</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\Submodules\greedy\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include;C:\ITKSNAP\itk-snap- bin\Submodules\greedy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\Submodules\greedy\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include;C:\ITKSNAP\itk-snap- bin\Submodules\greedy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\Submodules\greedy\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include;C:\ITKSNAP\itk-snap- bin\Submodules\greedy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\ITKSNAP\itk-snap- bin\Submodules\greedy\ITKIOFactoryRegistration;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include;C:\Program Files\ITK\include\ITK-4.12;C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration;C:\Program Files\VTK\include\vtk-6.3;C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include;C:\ITKSNAP\itk-snap- bin\Submodules\greedy;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ITKSNAP/itk-snap-src "-BC:/ITKSNAP/itk-snap- bin" --check-stamp-file "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMake\PYVersion.cmake;C:\ITKSNAP\itk-snap-src\CMake\rpavlik\GetGitRevisionDescription.cmake;C:\ITKSNAP\itk-snap-src\.git\modules\Submodules\greedy\HEAD;C:\ITKSNAP\itk-snap-src\CMake\rpavlik\GetGitRevisionDescription.cmake.in;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\git-data\grabRef.cmake;C:\ITKSNAP\itk-snap-src\.git\modules\Submodules\greedy\HEAD;C:\ITKSNAP\itk-snap-src\CMake\GitBranch.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDependentOption.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKConfigVersion.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKConfig.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKModuleAPI.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\UseITK.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\itkImageIOFactoryRegisterManager.h.in;C:\Program Files\ITK\lib\cmake\ITK-4.12\itkTransformIOFactoryRegisterManager.h.in;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyVersion.cxx.in;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ITKSNAP/itk-snap-src "-BC:/ITKSNAP/itk-snap- bin" --check-stamp-file "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMake\PYVersion.cmake;C:\ITKSNAP\itk-snap-src\CMake\rpavlik\GetGitRevisionDescription.cmake;C:\ITKSNAP\itk-snap-src\.git\modules\Submodules\greedy\HEAD;C:\ITKSNAP\itk-snap-src\CMake\rpavlik\GetGitRevisionDescription.cmake.in;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\git-data\grabRef.cmake;C:\ITKSNAP\itk-snap-src\.git\modules\Submodules\greedy\HEAD;C:\ITKSNAP\itk-snap-src\CMake\GitBranch.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDependentOption.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKConfigVersion.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKConfig.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKModuleAPI.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\UseITK.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\itkImageIOFactoryRegisterManager.h.in;C:\Program Files\ITK\lib\cmake\ITK-4.12\itkTransformIOFactoryRegisterManager.h.in;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyVersion.cxx.in;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ITKSNAP/itk-snap-src "-BC:/ITKSNAP/itk-snap- bin" --check-stamp-file "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMake\PYVersion.cmake;C:\ITKSNAP\itk-snap-src\CMake\rpavlik\GetGitRevisionDescription.cmake;C:\ITKSNAP\itk-snap-src\.git\modules\Submodules\greedy\HEAD;C:\ITKSNAP\itk-snap-src\CMake\rpavlik\GetGitRevisionDescription.cmake.in;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\git-data\grabRef.cmake;C:\ITKSNAP\itk-snap-src\.git\modules\Submodules\greedy\HEAD;C:\ITKSNAP\itk-snap-src\CMake\GitBranch.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDependentOption.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKConfigVersion.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKConfig.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKModuleAPI.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\UseITK.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\itkImageIOFactoryRegisterManager.h.in;C:\Program Files\ITK\lib\cmake\ITK-4.12\itkTransformIOFactoryRegisterManager.h.in;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyVersion.cxx.in;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/ITKSNAP/itk-snap-src "-BC:/ITKSNAP/itk-snap- bin" --check-stamp-file "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMake\PYVersion.cmake;C:\ITKSNAP\itk-snap-src\CMake\rpavlik\GetGitRevisionDescription.cmake;C:\ITKSNAP\itk-snap-src\.git\modules\Submodules\greedy\HEAD;C:\ITKSNAP\itk-snap-src\CMake\rpavlik\GetGitRevisionDescription.cmake.in;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\git-data\grabRef.cmake;C:\ITKSNAP\itk-snap-src\.git\modules\Submodules\greedy\HEAD;C:\ITKSNAP\itk-snap-src\CMake\GitBranch.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindGit.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.8\Modules\CMakeDependentOption.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKConfigVersion.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKConfig.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\ITKModuleAPI.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\UseITK.cmake;C:\Program Files\ITK\lib\cmake\ITK-4.12\itkImageIOFactoryRegisterManager.h.in;C:\Program Files\ITK\lib\cmake\ITK-4.12\itkTransformIOFactoryRegisterManager.h.in;C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\GreedyVersion.cxx.in;C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_main.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating stackg_usage_main.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Debug\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_main.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_main.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_main.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Debug\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_main.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_main.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating stackg_usage_main.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Release\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_main.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_main.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_main.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Release\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_main.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_main.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating stackg_usage_main.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+MinSizeRel\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_main.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_main.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_main.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\MinSizeRel\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_main.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_main.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating stackg_usage_main.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+RelWithDebInfo\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_main.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_main.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_main.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\RelWithDebInfo\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_main.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_main.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_init.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating stackg_usage_init.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Debug\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_init.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_init.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_init.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Debug\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_init.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_init.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating stackg_usage_init.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Release\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_init.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_init.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_init.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Release\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_init.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_init.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating stackg_usage_init.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+MinSizeRel\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_init.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_init.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_init.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\MinSizeRel\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_init.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_init.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating stackg_usage_init.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+RelWithDebInfo\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_init.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_init.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_init.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\RelWithDebInfo\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_init.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_init.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_recon.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating stackg_usage_recon.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Debug\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_recon.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_recon.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_recon.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Debug\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_recon.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_recon.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating stackg_usage_recon.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Release\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_recon.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_recon.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_recon.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Release\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_recon.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_recon.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating stackg_usage_recon.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+MinSizeRel\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_recon.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_recon.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_recon.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\MinSizeRel\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_recon.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_recon.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating stackg_usage_recon.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+RelWithDebInfo\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_recon.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_recon.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_recon.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\RelWithDebInfo\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_recon.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_recon.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_volmatch.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating stackg_usage_volmatch.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Debug\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_volmatch.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_volmatch.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_volmatch.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Debug\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_volmatch.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_volmatch.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating stackg_usage_volmatch.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Release\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_volmatch.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_volmatch.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_volmatch.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Release\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_volmatch.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_volmatch.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating stackg_usage_volmatch.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+MinSizeRel\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_volmatch.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_volmatch.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_volmatch.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\MinSizeRel\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_volmatch.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_volmatch.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating stackg_usage_volmatch.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+RelWithDebInfo\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_volmatch.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_volmatch.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_volmatch.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\RelWithDebInfo\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_volmatch.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_volmatch.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_voliter.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating stackg_usage_voliter.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Debug\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_voliter.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_voliter.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_voliter.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Debug\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_voliter.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_voliter.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating stackg_usage_voliter.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Release\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_voliter.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_voliter.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_voliter.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Release\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_voliter.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_voliter.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating stackg_usage_voliter.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+MinSizeRel\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_voliter.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_voliter.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_voliter.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\MinSizeRel\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_voliter.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_voliter.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating stackg_usage_voliter.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+RelWithDebInfo\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_voliter.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_voliter.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_voliter.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\RelWithDebInfo\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_voliter.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_voliter.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_splat.h.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generating stackg_usage_splat.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+Debug\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_splat.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_splat.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_splat.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Debug\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_splat.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_splat.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generating stackg_usage_splat.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+Release\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_splat.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_splat.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_splat.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\Release\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_splat.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_splat.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Generating stackg_usage_splat.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+MinSizeRel\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_splat.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_splat.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_splat.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\MinSizeRel\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_splat.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_splat.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Generating stackg_usage_splat.h</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+RelWithDebInfo\text_to_hex.exe -i C:/ITKSNAP/itk-snap-src/Submodules/greedy/docs/usage/stackg_usage_splat.txt &gt; "C:/ITKSNAP/itk-snap- bin/Submodules/greedy/stackg_usage_splat.h"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/a1e97315fa77f09baee596cc0868451d/stackg_usage_splat.h.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\RelWithDebInfo\text_to_hex.exe;C:\ITKSNAP\itk-snap-src\Submodules\greedy\docs\usage\stackg_usage_splat.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_splat.h</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\8f12c13643eb15b0d386d9a7aa7afb7a\docs_to_hex.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/8f12c13643eb15b0d386d9a7aa7afb7a/docs_to_hex.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_main.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_init.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_recon.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_volmatch.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_voliter.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_splat.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\docs_to_hex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/8f12c13643eb15b0d386d9a7aa7afb7a/docs_to_hex.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_main.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_init.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_recon.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_volmatch.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_voliter.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_splat.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\docs_to_hex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/8f12c13643eb15b0d386d9a7aa7afb7a/docs_to_hex.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_main.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_init.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_recon.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_volmatch.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_voliter.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_splat.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\docs_to_hex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/ITKSNAP/itk-snap- bin/CMakeFiles/8f12c13643eb15b0d386d9a7aa7afb7a/docs_to_hex.rule;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_main.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_init.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_recon.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_volmatch.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_voliter.h;C:\ITKSNAP\itk-snap- bin\Submodules\greedy\stackg_usage_splat.h;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\docs_to_hex</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\docs_to_hex" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\ITKSNAP\itk-snap- bin\ZERO_CHECK.vcxproj">
+      <Project>FC0254CE-1B99-38AC-9ECF-38883B870394</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\ITKSNAP\itk-snap- bin\Submodules\greedy\text_to_hex.vcxproj">
+      <Project>2ED152DD-AAE2-3861-A489-9AA4D119EE00</Project>
+      <Name>text_to_hex</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

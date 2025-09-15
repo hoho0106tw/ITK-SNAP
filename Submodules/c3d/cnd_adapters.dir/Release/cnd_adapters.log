@@ -1,0 +1,434 @@
+﻿已經開始建置於 2021/6/30 上午 10:31:34。
+     1>節點 8 (Rebuild 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_adapters.vcxproj"。
+     1>CustomBuild:
+         Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Submodules/c3d/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /I"C:\Program Files\ITK\include\ITK-4.12" /I"C:\Program Files\VTK\include\vtk-6.3" /I"C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc" /I"C:\ITKSNAP\itk-snap- bin\Submodules\c3d" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D ITK_IO_FACTORY_REGISTER_MANAGER /D "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)" /D "vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\"" /D "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)" /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cnd_adapters.dir\Release\\" /Fd"cnd_adapters.dir\Release\cnd_adapters.pdb" /Gd /TP /errorReport:prompt   /bigobj "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AddImages.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AlignByLandmarks.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AntiAliasImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ApplyMetric.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ApplyNoise.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\BinaryHoleFill.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\BiasFieldCorrectionN4.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\BinaryImageCentroid.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\BinaryMathOperation.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Canny.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ClipImageIntensity.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ComputeFFT.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ComputeMoments.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ComputeOverlaps.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ConnectedComponents.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Convolution.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\CoordinateMap.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\CopyTransform.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\CreateImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\CreateInterpolator.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\DicomSeriesList.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExportPatches.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtractRegion.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtractSlice.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtrudeSegmentation.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\FillBackgroundWithNeighborhoodNoise.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\FlipImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\HaralickFeatures.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\HessianEigenValues.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\HessianObjectness.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\HistogramMatch.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ImageERF.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ImageGradient.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ImageLaplacian.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\GeneralLinearModel.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelOverlapMeasures.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelStatistics.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LandmarksToSpheres.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LaplacianSharpening.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LevelSetSegmentation.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MatchBoundingBoxes.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MathematicalMorphology.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MeanFilter.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MedianFilter.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MixtureModel.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MomentsFeatures.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MRFVote.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MultiplyImages.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizeLocalWindow.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizedCrossCorrelation.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\OverlayLabelImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\OtsuThreshold.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\PadImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\PeronaMalik.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\PrintImageInfo.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Rank.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ReadImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ReciprocalImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ReorderStack.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ReplaceIntensities.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ResampleImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ResliceImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RetainLabels.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFApply.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFTrain.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SampleImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ScaleShiftImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ScalarToRGB.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SetSform.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SetOrientation.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SignedDistanceTransform.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SLICSuperVoxel.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SmoothImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SplitMultilabelImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\StapleAlgorithm.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\StructureTensorEigenValues.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SwapDimensions.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\TestImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ThresholdImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\TileImages.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\TrimImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\UnaryMathOperation.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\UpdateMetadataKey.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Vote.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\VoxelwiseComponentFunction.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\VoxelwiseRegression.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WarpImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WarpLabelImage.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WeightedSum.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WeightedSumVoxelwise.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WrapDimension.cxx" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WriteImage.cxx" "C:\ITKSNAP\itk-snap- bin\Submodules\c3d\ConvertImageVersion.cxx"
+         AddImages.cxx
+         AlignByLandmarks.cxx
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AlignByLandmarks.cxx(143): warning C4018: '<': signed/unsigned 不相符
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AlignByLandmarks.cxx(82): note: 編譯類別 樣板 成員函式 'void AlignByLandmarks<double,2>::operator ()(int,std::string)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AlignByLandmarks.cxx(243): note: 請參閱要編譯的類別 樣板 具現化 'AlignByLandmarks<double,2>' 之參考
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AlignByLandmarks.cxx(169): warning C4018: '<': signed/unsigned 不相符
+         AntiAliasImage.cxx
+         ApplyMetric.cxx
+         ApplyNoise.cxx
+         BinaryHoleFill.cxx
+         BiasFieldCorrectionN4.cxx
+         BinaryImageCentroid.cxx
+         BinaryMathOperation.cxx
+         Canny.cxx
+         ClipImageIntensity.cxx
+         ComputeFFT.cxx
+         ComputeMoments.cxx
+         ComputeOverlaps.cxx
+         ConnectedComponents.cxx
+         Convolution.cxx
+         CoordinateMap.cxx
+         CopyTransform.cxx
+         CreateImage.cxx
+         CreateInterpolator.cxx
+         正在產生程式碼...
+         正在編譯...
+         DicomSeriesList.cxx
+         ExportPatches.cxx
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExportPatches.cxx(144): warning C4146: 一元減號運算子套用 unsigned 類型，所得的結果也會是 unsigned 類型
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExportPatches.cxx(118): note: 編譯類別 樣板 成員函式 'void ExportPatches<double,2>::operator ()(const char *,const itk::Size<2> &,double)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExportPatches.cxx(253): note: 請參閱要編譯的類別 樣板 具現化 'ExportPatches<double,2>' 之參考
+         ExtractRegion.cxx
+         ExtractSlice.cxx
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtractSlice.cxx(212): warning C4018: '<': signed/unsigned 不相符
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtractSlice.cxx(109): note: 編譯類別 樣板 成員函式 'void ExtractSlice<double,3>::operator ()(std::string,char *,unsigned int)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtractSlice.cxx(217): note: 請參閱要編譯的類別 樣板 具現化 'ExtractSlice<double,3>' 之參考
+         ExtrudeSegmentation.cxx
+         FillBackgroundWithNeighborhoodNoise.cxx
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(454): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(467): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(481): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(496): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(134): warning C4101: 'p_sum': 未參考的區域變數
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(86): note: 編譯類別 樣板 成員函式 'void OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>::ThreadedGenerateData(OneDimensionalInPlaceAccumulateFilter<TInputImage> *,const itk::ImageRegion<2> &,itk::ThreadIdType)' 時
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(538): note: 請參閱所要編譯的函式 樣板 具現化 'void OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>::ThreadedGenerateData(OneDimensionalInPlaceAccumulateFilter<TInputImage> *,const itk::ImageRegion<2> &,itk::ThreadIdType)' 之參考
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(538): note: 請參閱要編譯的類別 樣板 具現化 'OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>' 之參考
+                 with
+                 [
+                     TPixel=double
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(536): note: 編譯類別 樣板 成員函式 'void OneDimensionalInPlaceAccumulateFilter<TInputImage>::ThreadedGenerateData(const itk::ImageRegion<2> &,itk::ThreadIdType)' 時
+                 with
+                 [
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(554): note: 請參閱要編譯的類別 樣板 具現化 'OneDimensionalInPlaceAccumulateFilter<TInputImage>' 之參考
+                 with
+                 [
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\FillBackgroundWithNeighborhoodNoise.cxx(175): note: 請參閱所要編譯的函式 樣板 具現化 'itk::SmartPointer<itk::VectorImage<TPixel,2>> AccumulateNeighborhoodSumsInPlace<itk::VectorImage<TPixel,2>>(TInputImage *,const itk::Size<2> &,int,int)' 之參考
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\FillBackgroundWithNeighborhoodNoise.cxx(119): note: 編譯類別 樣板 成員函式 'void FillBackgroundWithNeighborhoodNoise<double,2>::operator ()(const itk::Size<2> &,int)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\FillBackgroundWithNeighborhoodNoise.cxx(208): note: 請參閱要編譯的類別 樣板 具現化 'FillBackgroundWithNeighborhoodNoise<double,2>' 之參考
+         FlipImage.cxx
+         HaralickFeatures.cxx
+         HessianEigenValues.cxx
+         HessianObjectness.cxx
+         HistogramMatch.cxx
+         ImageERF.cxx
+         ImageGradient.cxx
+         ImageLaplacian.cxx
+         GeneralLinearModel.cxx
+         LabelOverlapMeasures.cxx
+         LabelStatistics.cxx
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelStatistics.cxx(96): warning C4477: 'printf' : format string '%5lu' requires an argument of type 'unsigned long', but variadic argument 1 has type '__int64'
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelStatistics.cxx(96): note: consider using '%llu' in the format string
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelStatistics.cxx(96): note: consider using '%Iu' in the format string
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelStatistics.cxx(96): note: consider using '%I64u' in the format string
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelStatistics.cxx(34): note: 編譯類別 樣板 成員函式 'void LabelStatistics<double,2>::operator ()(void)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelStatistics.cxx(103): note: 請參閱要編譯的類別 樣板 具現化 'LabelStatistics<double,2>' 之參考
+         LandmarksToSpheres.cxx
+         LaplacianSharpening.cxx
+         LevelSetSegmentation.cxx
+         正在產生程式碼...
+         正在編譯...
+         MatchBoundingBoxes.cxx
+         MathematicalMorphology.cxx
+         MeanFilter.cxx
+         MedianFilter.cxx
+         MixtureModel.cxx
+         MomentsFeatures.cxx
+         MRFVote.cxx
+         MultiplyImages.cxx
+         NormalizeLocalWindow.cxx
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(454): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(467): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(481): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(496): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(134): warning C4101: 'p_sum': 未參考的區域變數
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(86): note: 編譯類別 樣板 成員函式 'void OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>::ThreadedGenerateData(OneDimensionalInPlaceAccumulateFilter<TInputImage> *,const itk::ImageRegion<2> &,itk::ThreadIdType)' 時
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(538): note: 請參閱所要編譯的函式 樣板 具現化 'void OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>::ThreadedGenerateData(OneDimensionalInPlaceAccumulateFilter<TInputImage> *,const itk::ImageRegion<2> &,itk::ThreadIdType)' 之參考
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(538): note: 請參閱要編譯的類別 樣板 具現化 'OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>' 之參考
+                 with
+                 [
+                     TPixel=double
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(536): note: 編譯類別 樣板 成員函式 'void OneDimensionalInPlaceAccumulateFilter<TInputImage>::ThreadedGenerateData(const itk::ImageRegion<2> &,itk::ThreadIdType)' 時
+                 with
+                 [
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(554): note: 請參閱要編譯的類別 樣板 具現化 'OneDimensionalInPlaceAccumulateFilter<TInputImage>' 之參考
+                 with
+                 [
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizeLocalWindow.cxx(109): note: 請參閱所要編譯的函式 樣板 具現化 'itk::SmartPointer<itk::VectorImage<TPixel,2>> AccumulateNeighborhoodSumsInPlace<itk::VectorImage<TPixel,2>>(TInputImage *,const itk::Size<2> &,int,int)' 之參考
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizeLocalWindow.cxx(83): note: 編譯類別 樣板 成員函式 'void NormalizeLocalWindow<double,2>::operator ()(itk::Size<2>)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizeLocalWindow.cxx(126): note: 請參閱要編譯的類別 樣板 具現化 'NormalizeLocalWindow<double,2>' 之參考
+         NormalizedCrossCorrelation.cxx
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(454): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(467): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(481): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(496): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(134): warning C4101: 'p_sum': 未參考的區域變數
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(86): note: 編譯類別 樣板 成員函式 'void OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>::ThreadedGenerateData(OneDimensionalInPlaceAccumulateFilter<TInputImage> *,const itk::ImageRegion<2> &,itk::ThreadIdType)' 時
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(538): note: 請參閱所要編譯的函式 樣板 具現化 'void OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>::ThreadedGenerateData(OneDimensionalInPlaceAccumulateFilter<TInputImage> *,const itk::ImageRegion<2> &,itk::ThreadIdType)' 之參考
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(538): note: 請參閱要編譯的類別 樣板 具現化 'OneDimensionalInPlaceAccumulateFilterWorker<double,itk::VectorImage<TPixel,2>>' 之參考
+                 with
+                 [
+                     TPixel=double
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(536): note: 編譯類別 樣板 成員函式 'void OneDimensionalInPlaceAccumulateFilter<TInputImage>::ThreadedGenerateData(const itk::ImageRegion<2> &,itk::ThreadIdType)' 時
+                 with
+                 [
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(554): note: 請參閱要編譯的類別 樣板 具現化 'OneDimensionalInPlaceAccumulateFilter<TInputImage>' 之參考
+                 with
+                 [
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizedCrossCorrelation.cxx(107): note: 請參閱所要編譯的函式 樣板 具現化 'itk::SmartPointer<itk::VectorImage<TPixel,2>> AccumulateNeighborhoodSumsInPlace<itk::VectorImage<TPixel,2>>(TInputImage *,const itk::Size<2> &,int,int)' 之參考
+                 with
+                 [
+                     TPixel=double,
+                     TInputImage=itk::VectorImage<double,2>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizedCrossCorrelation.cxx(87): note: 編譯類別 樣板 成員函式 'void NormalizedCrossCorrelation<double,2>::operator ()(itk::Size<2>)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizedCrossCorrelation.cxx(129): note: 請參閱要編譯的類別 樣板 具現化 'NormalizedCrossCorrelation<double,2>' 之參考
+         OverlayLabelImage.cxx
+         OtsuThreshold.cxx
+         PadImage.cxx
+         PeronaMalik.cxx
+         PrintImageInfo.cxx
+         Rank.cxx
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Rank.cxx(71): warning C4477: 'printf' : format string '%li' requires an argument of type 'long', but variadic argument 1 has type 'size_t'
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Rank.cxx(71): note: consider using '%zi' in the format string
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Rank.cxx(35): note: 編譯類別 樣板 成員函式 'void Rank<double,2>::operator ()(void)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Rank.cxx(84): note: 請參閱要編譯的類別 樣板 具現化 'Rank<double,2>' 之參考
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Rank.cxx(71): warning C4477: 'printf' : format string '%li' requires an argument of type 'long', but variadic argument 3 has type 'size_t'
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Rank.cxx(71): note: consider using '%zi' in the format string
+         ReadImage.cxx
+         ReciprocalImage.cxx
+         ReorderStack.cxx
+         ReplaceIntensities.cxx
+         正在產生程式碼...
+         正在編譯...
+         ResampleImage.cxx
+         ResliceImage.cxx
+         RetainLabels.cxx
+         RFApply.cxx
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\ImageCollectionToImageFilter.h(270): warning C4018: '<': signed/unsigned 不相符
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\ImageCollectionToImageFilter.h(260): note: 編譯類別 樣板 成員函式 'void ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::AddVectorImage(TVectorImage *)' 時
+                 with
+                 [
+                     TInputImage=itk::OrientedRASImage<double,2>,
+                     TInputVectorImage=VectorImageType,
+                     TVectorImage=VectorImageType
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\ImageCollectionToImageFilter.h(292): note: 請參閱所要編譯的函式 樣板 具現化 'void ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::AddVectorImage(TVectorImage *)' 之參考
+                 with
+                 [
+                     TInputImage=itk::OrientedRASImage<double,2>,
+                     TInputVectorImage=VectorImageType,
+                     TVectorImage=VectorImageType
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\ImageCollectionToImageFilter.h(230): note: 編譯類別 樣板 成員函式 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<2> &)' 時
+                 with
+                 [
+                     TInputImage=itk::OrientedRASImage<double,2>,
+                     TInputVectorImage=VectorImageType
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\randomforest\RandomForestClassifyImageFilter.txx(171): note: 請參閱所要編譯的函式 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<2> &)' 之參考
+                 with
+                 [
+                     TInputImage=itk::OrientedRASImage<double,2>,
+                     TInputVectorImage=VectorImageType
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\randomforest\RandomForestClassifyImageFilter.txx(171): note: 請參閱要編譯的類別 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>' 之參考
+                 with
+                 [
+                     TInputImage=itk::OrientedRASImage<double,2>,
+                     TInputVectorImage=VectorImageType
+                 ]
+         c:\itksnap\itk-snap-src\submodules\c3d\itkextras\randomforest\RandomForestClassifyImageFilter.txx(133): note: 編譯類別 樣板 成員函式 'void RandomForestClassifyImageFilter<itk::OrientedRASImage<TPixel,2>,VectorImageType,itk::OrientedRASImage<TPixel,2>,TPixel>::ThreadedGenerateData(const itk::ImageRegion<2> &,itk::ThreadIdType)' 時
+                 with
+                 [
+                     TPixel=double
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFApply.cxx(49): note: 請參閱要編譯的類別 樣板 具現化 'RandomForestClassifyImageFilter<itk::OrientedRASImage<TPixel,2>,VectorImageType,itk::OrientedRASImage<TPixel,2>,TPixel>' 之參考
+                 with
+                 [
+                     TPixel=double
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFApply.cxx(35): note: 編譯類別 樣板 成員函式 'void RFApply<double,2>::operator ()(const char *)' 時
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFApply.cxx(80): note: 請參閱要編譯的類別 樣板 具現化 'RFApply<double,2>' 之參考
+         RFTrain.cxx
+     1>C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\ImageCollectionToImageFilter.h(270): warning C4018: '<': signed/unsigned 不相符
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\ImageCollectionToImageFilter.h(260): note: 編譯類別 樣板 成員函式 'void ImageCollectionConstRegionIteratorWithIndex<itk::OrientedRASImage<TPixel,2>,VectorImageType>::AddVectorImage(TVectorImage *)' 時
+                 with
+                 [
+                     TPixel=double,
+                     TVectorImage=VectorImageType
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\ImageCollectionToImageFilter.h(292): note: 請參閱所要編譯的函式 樣板 具現化 'void ImageCollectionConstRegionIteratorWithIndex<itk::OrientedRASImage<TPixel,2>,VectorImageType>::AddVectorImage(TVectorImage *)' 之參考
+                 with
+                 [
+                     TPixel=double,
+                     TVectorImage=VectorImageType
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\ImageCollectionToImageFilter.h(230): note: 編譯類別 樣板 成員函式 'ImageCollectionConstRegionIteratorWithIndex<itk::OrientedRASImage<TPixel,2>,VectorImageType>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<2> &)' 時
+                 with
+                 [
+                     TPixel=double
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFTrain.cxx(66): note: 請參閱所要編譯的函式 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<itk::OrientedRASImage<TPixel,2>,VectorImageType>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<2> &)' 之參考
+                 with
+                 [
+                     TPixel=double
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFTrain.cxx(66): note: 請參閱要編譯的類別 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<itk::OrientedRASImage<TPixel,2>,VectorImageType>' 之參考
+                 with
+                 [
+                     TPixel=double
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFTrain.cxx(38): note: 編譯類別 樣板 成員函式 'void RFTrain<double,2>::operator ()(const char *,const RFParameters<TPixel,2> &)' 時
+                 with
+                 [
+                     TPixel=double
+                 ]
+         C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFTrain.cxx(173): note: 請參閱要編譯的類別 樣板 具現化 'RFTrain<double,2>' 之參考
+         SampleImage.cxx
+         ScaleShiftImage.cxx
+         ScalarToRGB.cxx
+         SetSform.cxx
+         SetOrientation.cxx
+         SignedDistanceTransform.cxx
+         SLICSuperVoxel.cxx
+         SmoothImage.cxx
+         SplitMultilabelImage.cxx
+         StapleAlgorithm.cxx
+         StructureTensorEigenValues.cxx
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(454): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(467): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(481): warning C4068: 未知的 pragma
+     1>c:\itksnap\itk-snap-src\submodules\c3d\itkextras\OneDimensionalInPlaceAccumulateFilter.txx(496): warning C4068: 未知的 pragma
+         SwapDimensions.cxx
+         TestImage.cxx
+         ThresholdImage.cxx
+         TileImages.cxx
+         正在產生程式碼...
+         正在編譯...
+         TrimImage.cxx
+         UnaryMathOperation.cxx
+         UpdateMetadataKey.cxx
+         Vote.cxx
+         VoxelwiseComponentFunction.cxx
+         VoxelwiseRegression.cxx
+         WarpImage.cxx
+         WarpLabelImage.cxx
+         WeightedSum.cxx
+         WeightedSumVoxelwise.cxx
+         WrapDimension.cxx
+         WriteImage.cxx
+         ConvertImageVersion.cxx
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\ITKSNAP\itk-snap- bin\Submodules\c3d\Release\cnd_adapters.lib" /NOLOGO /MACHINE:X64   /machine:x64 cnd_adapters.dir\Release\AddImages.obj
+         cnd_adapters.dir\Release\AlignByLandmarks.obj
+         cnd_adapters.dir\Release\AntiAliasImage.obj
+         cnd_adapters.dir\Release\ApplyMetric.obj
+         cnd_adapters.dir\Release\ApplyNoise.obj
+         cnd_adapters.dir\Release\BinaryHoleFill.obj
+         cnd_adapters.dir\Release\BiasFieldCorrectionN4.obj
+         cnd_adapters.dir\Release\BinaryImageCentroid.obj
+         cnd_adapters.dir\Release\BinaryMathOperation.obj
+         cnd_adapters.dir\Release\Canny.obj
+         cnd_adapters.dir\Release\ClipImageIntensity.obj
+         cnd_adapters.dir\Release\ComputeFFT.obj
+         cnd_adapters.dir\Release\ComputeMoments.obj
+         cnd_adapters.dir\Release\ComputeOverlaps.obj
+         cnd_adapters.dir\Release\ConnectedComponents.obj
+         cnd_adapters.dir\Release\Convolution.obj
+         cnd_adapters.dir\Release\CoordinateMap.obj
+         cnd_adapters.dir\Release\CopyTransform.obj
+         cnd_adapters.dir\Release\CreateImage.obj
+         cnd_adapters.dir\Release\CreateInterpolator.obj
+         cnd_adapters.dir\Release\DicomSeriesList.obj
+         cnd_adapters.dir\Release\ExportPatches.obj
+         cnd_adapters.dir\Release\ExtractRegion.obj
+         cnd_adapters.dir\Release\ExtractSlice.obj
+         cnd_adapters.dir\Release\ExtrudeSegmentation.obj
+         cnd_adapters.dir\Release\FillBackgroundWithNeighborhoodNoise.obj
+         cnd_adapters.dir\Release\FlipImage.obj
+         cnd_adapters.dir\Release\HaralickFeatures.obj
+         cnd_adapters.dir\Release\HessianEigenValues.obj
+         cnd_adapters.dir\Release\HessianObjectness.obj
+         cnd_adapters.dir\Release\HistogramMatch.obj
+         cnd_adapters.dir\Release\ImageERF.obj
+         cnd_adapters.dir\Release\ImageGradient.obj
+         cnd_adapters.dir\Release\ImageLaplacian.obj
+         cnd_adapters.dir\Release\GeneralLinearModel.obj
+         cnd_adapters.dir\Release\LabelOverlapMeasures.obj
+         cnd_adapters.dir\Release\LabelStatistics.obj
+         cnd_adapters.dir\Release\LandmarksToSpheres.obj
+         cnd_adapters.dir\Release\LaplacianSharpening.obj
+         cnd_adapters.dir\Release\LevelSetSegmentation.obj
+         cnd_adapters.dir\Release\MatchBoundingBoxes.obj
+         cnd_adapters.dir\Release\MathematicalMorphology.obj
+         cnd_adapters.dir\Release\MeanFilter.obj
+         cnd_adapters.dir\Release\MedianFilter.obj
+         cnd_adapters.dir\Release\MixtureModel.obj
+         cnd_adapters.dir\Release\MomentsFeatures.obj
+         cnd_adapters.dir\Release\MRFVote.obj
+         cnd_adapters.dir\Release\MultiplyImages.obj
+         cnd_adapters.dir\Release\NormalizeLocalWindow.obj
+         cnd_adapters.dir\Release\NormalizedCrossCorrelation.obj
+         cnd_adapters.dir\Release\OverlayLabelImage.obj
+         cnd_adapters.dir\Release\OtsuThreshold.obj
+         cnd_adapters.dir\Release\PadImage.obj
+         cnd_adapters.dir\Release\PeronaMalik.obj
+         cnd_adapters.dir\Release\PrintImageInfo.obj
+         cnd_adapters.dir\Release\Rank.obj
+         cnd_adapters.dir\Release\ReadImage.obj
+         cnd_adapters.dir\Release\ReciprocalImage.obj
+         cnd_adapters.dir\Release\ReorderStack.obj
+         cnd_adapters.dir\Release\ReplaceIntensities.obj
+         cnd_adapters.dir\Release\ResampleImage.obj
+         cnd_adapters.dir\Release\ResliceImage.obj
+         cnd_adapters.dir\Release\RetainLabels.obj
+         cnd_adapters.dir\Release\RFApply.obj
+         cnd_adapters.dir\Release\RFTrain.obj
+         cnd_adapters.dir\Release\SampleImage.obj
+         cnd_adapters.dir\Release\ScaleShiftImage.obj
+         cnd_adapters.dir\Release\ScalarToRGB.obj
+         cnd_adapters.dir\Release\SetSform.obj
+         cnd_adapters.dir\Release\SetOrientation.obj
+         cnd_adapters.dir\Release\SignedDistanceTransform.obj
+         cnd_adapters.dir\Release\SLICSuperVoxel.obj
+         cnd_adapters.dir\Release\SmoothImage.obj
+         cnd_adapters.dir\Release\SplitMultilabelImage.obj
+         cnd_adapters.dir\Release\StapleAlgorithm.obj
+         cnd_adapters.dir\Release\StructureTensorEigenValues.obj
+         cnd_adapters.dir\Release\SwapDimensions.obj
+         cnd_adapters.dir\Release\TestImage.obj
+         cnd_adapters.dir\Release\ThresholdImage.obj
+         cnd_adapters.dir\Release\TileImages.obj
+         cnd_adapters.dir\Release\TrimImage.obj
+         cnd_adapters.dir\Release\UnaryMathOperation.obj
+         cnd_adapters.dir\Release\UpdateMetadataKey.obj
+         cnd_adapters.dir\Release\Vote.obj
+         cnd_adapters.dir\Release\VoxelwiseComponentFunction.obj
+         cnd_adapters.dir\Release\VoxelwiseRegression.obj
+         cnd_adapters.dir\Release\WarpImage.obj
+         cnd_adapters.dir\Release\WarpLabelImage.obj
+         cnd_adapters.dir\Release\WeightedSum.obj
+         cnd_adapters.dir\Release\WeightedSumVoxelwise.obj
+         cnd_adapters.dir\Release\WrapDimension.obj
+         cnd_adapters.dir\Release\WriteImage.obj
+         cnd_adapters.dir\Release\ConvertImageVersion.obj
+         cnd_adapters.vcxproj -> C:\ITKSNAP\itk-snap- bin\Submodules\c3d\Release\cnd_adapters.lib
+     1>專案 "C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_adapters.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:02:55.59

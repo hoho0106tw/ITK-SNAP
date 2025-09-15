@@ -1,0 +1,228 @@
+﻿已經開始建置於 2021/6/29 下午 01:25:53。
+     1>節點 13 (Rebuild 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\iteratorTests.vcxproj"。
+     1>CustomBuild:
+         Building Custom Rule C:/ITKSNAP/itk-snap-src/CMakeLists.txt
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /I"C:\Program Files\ITK\include\ITK-4.12" /I"C:\Program Files\VTK\include\vtk-6.3" /I"C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include" /I"C:\ITKSNAP\itk-snap-src\Common" /I"C:\ITKSNAP\itk-snap-src\Common\ITKExtras" /I"C:\ITKSNAP\itk-snap-src\Common\JSon" /I"C:\ITKSNAP\itk-snap-src\Logic" /I"C:\ITKSNAP\itk-snap-src\Logic\Common" /I"C:\ITKSNAP\itk-snap-src\Logic\Framework" /I"C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper" /I"C:\ITKSNAP\itk-snap-src\Logic\LevelSet" /I"C:\ITKSNAP\itk-snap-src\Logic\Mesh" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\Texture" /I"C:\ITKSNAP\itk-snap-src\Logic\RLEImage" /I"C:\ITKSNAP\itk-snap-src\Logic\Slicing" /I"C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\api" /I"C:\ITKSNAP\itk-snap-src\Submodules\greedy\src" /I"C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include" /I"C:\ITKSNAP\itk-snap-src\GUI" /I"C:\ITKSNAP\itk-snap-src\GUI\Model" /I"C:\ITKSNAP\itk-snap-src\GUI\Renderer" /I"C:\ITKSNAP\itk-snap-src\GUI\Renderer\OrientationWidget\Reorient" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Components" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\External" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\External\ColorWheel" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\ModelView" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Testing" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\View" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\Registration" /I"C:\ITKSNAP\itk-snap-src\Testing\Logic" /I"C:\ITKSNAP\itk-snap-src\Testing\GUI\Qt" /I"C:\Program Files\ITK\lib\cmake\ITK-4.12\Utilities\zlib" /I"C:\ITKSNAP\itk-snap- bin" /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtWidgets /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtGui /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtCore /I"C:\Qt\Qt5.6.2\5.6\msvc2015_64\.\mkspecs\win32-msvc2015" /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtOpenGL /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtConcurrent /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtQml /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtNetwork /I"C:\Program Files\ITK\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D ITK_IO_FACTORY_REGISTER_MANAGER /D "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)" /D "vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\"" /D "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)" /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"iteratorTests.dir\Debug\\" /Fd"iteratorTests.dir\Debug\vc140.pdb" /Gd /TP /errorReport:prompt   /bigobj "C:\ITKSNAP\itk-snap-src\Testing\Logic\itkRegionOfInterestImageFilterTest.cxx" "C:\ITKSNAP\itk-snap-src\Testing\Logic\itkIteratorTests.cxx" "C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageIteratorsForwardBackwardTest.cxx" "C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageIteratorTest.cxx" "C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageIteratorWithIndexTest.cxx" "C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageRegionConstIteratorWithOnlyIndexTest.cxx" "C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageRegionIteratorTest.cxx" "C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageScanlineIteratorTest1.cxx" "C:\ITKSNAP\itk-snap-src\Testing\Logic\iteratorTests.cxx"
+         itkRegionOfInterestImageFilterTest.cxx
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<PixelType,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,itk::Index<3>>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,itk::Index<3>>,
+                     TPixel=PixelType
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionIterator.h(71): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<PixelType,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,itk::Index<3>>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,itk::Index<3>>,
+                     TPixel=PixelType
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkRegionOfInterestImageFilterTest.cxx(37): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<PixelType,3,unsigned short>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+     1>C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(145): warning C4244: '正在初始化': 將 'itk::Index<3>::IndexValueType' 轉換為 'unsigned short'，由於類型不同，可能導致資料遺失
+         c:\itksnap\itk-snap-src\logic\rleimage\RLERegionOfInterestImageFilter.txx(166): note: 請參閱所要編譯的函式 樣板 具現化 'std::pair<CounterType,itk::Index<3>>::pair<itk::Index<3>::IndexValueType,const _Ty2&,void>(_Other1 &&,_Other2) noexcept' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty2=itk::Index<3>,
+                     _Other1=itk::Index<3>::IndexValueType,
+                     _Other2=const itk::Index<3> &
+                 ]
+         c:\itksnap\itk-snap-src\logic\rleimage\RLERegionOfInterestImageFilter.txx(166): note: 請參閱所要編譯的函式 樣板 具現化 'std::pair<CounterType,itk::Index<3>>::pair<itk::Index<3>::IndexValueType,const _Ty2&,void>(_Other1 &&,_Other2) noexcept' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty2=itk::Index<3>,
+                     _Other1=itk::Index<3>::IndexValueType,
+                     _Other2=const itk::Index<3> &
+                 ]
+         c:\itksnap\itk-snap-src\logic\rleimage\RLERegionOfInterestImageFilter.txx(117): note: 編譯類別 樣板 成員函式 'void itk::RegionOfInterestImageFilter<ImageType,ImageType>::ThreadedGenerateData(const itk::ImageRegion<3> &,itk::ThreadIdType)' 時
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkRegionOfInterestImageFilterTest.cxx(45): note: 請參閱要編譯的類別 樣板 具現化 'itk::RegionOfInterestImageFilter<ImageType,ImageType>' 之參考
+         itkIteratorTests.cxx
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<unsigned short,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,unsigned short>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,unsigned short>,
+                     TPixel=unsigned short
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionIterator.h(111): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<unsigned short,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,unsigned short>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,unsigned short>,
+                     TPixel=unsigned short
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkIteratorTests.cxx(30): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<unsigned short,3,unsigned short>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+         itkImageIteratorsForwardBackwardTest.cxx
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<unsigned short,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,unsigned short>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,unsigned short>,
+                     TPixel=unsigned short
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionIterator.h(111): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<unsigned short,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,unsigned short>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,unsigned short>,
+                     TPixel=unsigned short
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageIteratorsForwardBackwardTest.cxx(29): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<unsigned short,3,unsigned short>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+         itkImageIteratorTest.cxx
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,itk::Vector<unsigned short,5>>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,itk::Vector<unsigned short,5>>,
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImageIterator.h(75): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,itk::Vector<unsigned short,5>>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,itk::Vector<unsigned short,5>>,
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageIteratorTest.cxx(52): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(199): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(190): note: 編譯類別 樣板 成員函式 'void RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(const itk::Index<3> &,const TPixel &)' 時
+                 with
+                 [
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageIteratorTest.cxx(85): note: 請參閱所要編譯的函式 樣板 具現化 'void RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(const itk::Index<3> &,const TPixel &)' 之參考
+                 with
+                 [
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(224): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(215): note: 編譯類別 樣板 成員函式 'const itk::Vector<unsigned short,5> &RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::GetPixel(const itk::Index<3> &) const' 時
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.h(163): note: 請參閱所要編譯的函式 樣板 具現化 'const itk::Vector<unsigned short,5> &RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::GetPixel(const itk::Index<3> &) const' 之參考
+         itkImageIteratorWithIndexTest.cxx
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<char,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,char>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,char>,
+                     TPixel=char
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionIterator.h(111): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<char,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,char>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,char>,
+                     TPixel=char
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageIteratorWithIndexTest.cxx(113): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<char,3,unsigned short>' 之參考
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageIteratorWithIndexTest.cxx(126): note: 請參閱要編譯的類別 樣板 具現化 'itkImageIteratorWithIndexTestIteratorTester<char>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+         itkImageRegionConstIteratorWithOnlyIndexTest.cxx
+         itkImageRegionIteratorTest.cxx
+     1>C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageRegionIteratorTest.cxx(56): warning C4838: 從 'double' 到 'float' 的轉換必須是縮小轉換
+     1>C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageRegionIteratorTest.cxx(57): warning C4838: 從 'double' 到 'float' 的轉換必須是縮小轉換
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(199): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(190): note: 編譯類別 樣板 成員函式 'void RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(const itk::Index<3> &,const TPixel &)' 時
+                 with
+                 [
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageRegionIteratorTest.cxx(94): note: 請參閱所要編譯的函式 樣板 具現化 'void RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(const itk::Index<3> &,const TPixel &)' 之參考
+                 with
+                 [
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageRegionIteratorTest.cxx(52): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(224): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(215): note: 編譯類別 樣板 成員函式 'const itk::Vector<unsigned short,5> &RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::GetPixel(const itk::Index<3> &) const' 時
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.h(163): note: 請參閱所要編譯的函式 樣板 具現化 'const itk::Vector<unsigned short,5> &RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::GetPixel(const itk::Index<3> &) const' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<int,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,int>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,int>,
+                     TPixel=int
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionIterator.h(71): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<int,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,int>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,int>,
+                     TPixel=int
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageRegionIteratorTest.cxx(146): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<int,3,unsigned short>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+         itkImageScanlineIteratorTest1.cxx
+     1>C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageScanlineIteratorTest1.cxx(37): warning C4838: 從 'double' 到 'float' 的轉換必須是縮小轉換
+     1>C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageScanlineIteratorTest1.cxx(38): warning C4838: 從 'double' 到 'float' 的轉換必須是縮小轉換
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(199): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(190): note: 編譯類別 樣板 成員函式 'void RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(const itk::Index<3> &,const TPixel &)' 時
+                 with
+                 [
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageScanlineIteratorTest1.cxx(77): note: 請參閱所要編譯的函式 樣板 具現化 'void RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(const itk::Index<3> &,const TPixel &)' 之參考
+                 with
+                 [
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageScanlineIteratorTest1.cxx(33): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(224): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(215): note: 編譯類別 樣板 成員函式 'const itk::Vector<unsigned short,5> &RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::GetPixel(const itk::Index<3> &) const' 時
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.h(163): note: 請參閱所要編譯的函式 樣板 具現化 'const itk::Vector<unsigned short,5> &RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::GetPixel(const itk::Index<3> &) const' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,itk::Vector<unsigned short,5>>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,itk::Vector<unsigned short,5>>,
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(205): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,itk::Vector<unsigned short,5>>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,itk::Vector<unsigned short,5>>,
+                     TPixel=itk::Vector<unsigned short,5>
+                 ]
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(42): note: 編譯類別 樣板 成員函式 'void RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::Allocate(bool)' 時
+         C:\ITKSNAP\itk-snap-src\Testing\Logic\itkImageScanlineIteratorTest1.cxx(66): note: 請參閱所要編譯的函式 樣板 具現化 'void RLEImage<itk::Vector<unsigned short,5>,3,unsigned short>::Allocate(bool)' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+         iteratorTests.cxx
+         正在產生程式碼...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\ITKSNAP\itk-snap- bin\Debug\iteratorTests.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib" /LIBPATH:"C:/Program Files/NVIDIA GPU Computing Toolkit/CUDA/v10.1/lib/x64/OpenCL.lib/Debug" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ws2_32.lib wldap32.lib crypt32.lib winmm.lib Normaliz.lib "C:\Program Files\ITK\lib\itkdouble-conversion-4.12.lib" "C:\Program Files\ITK\lib\itksys-4.12.lib" "C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib" "C:\Program Files\ITK\lib\itkvnl-4.12.lib" "C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib" "C:\Program Files\ITK\lib\itknetlib-4.12.lib" "C:\Program Files\ITK\lib\itkvcl-4.12.lib" "C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib" "C:\Program Files\ITK\lib\ITKIOBMP-4.12.lib" "C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib" "C:\Program Files\ITK\lib\itkzlib-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib" "C:\Program Files\ITK\lib\ITKIOGDCM-4.12.lib" "C:\Program Files\ITK\lib\ITKIOGIPL-4.12.lib" "C:\Program Files\ITK\lib\itkjpeg-4.12.lib" "C:\Program Files\ITK\lib\ITKIOJPEG-4.12.lib" "C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib" "C:\Program Files\ITK\lib\ITKIOMeta-4.12.lib" "C:\Program Files\ITK\lib\ITKznz-4.12.lib" "C:\Program Files\ITK\lib\ITKniftiio-4.12.lib" "C:\Program Files\ITK\lib\ITKIONIFTI-4.12.lib" "C:\Program Files\ITK\lib\ITKNrrdIO-4.12.lib" "C:\Program Files\ITK\lib\ITKIONRRD-4.12.lib" "C:\Program Files\ITK\lib\itkpng-4.12.lib" "C:\Program Files\ITK\lib\ITKIOPNG-4.12.lib" "C:\Program Files\ITK\lib\itktiff-4.12.lib" "C:\Program Files\ITK\lib\ITKIOVTK-4.12.lib" "C:\Program Files\ITK\lib\ITKLabelMap-4.12.lib" "C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib" "C:\Program Files\ITK\lib\ITKPath-4.12.lib" "C:\Program Files\ITK\lib\ITKQuadEdgeMesh-4.12.lib" "C:\Program Files\ITK\lib\ITKPolynomials-4.12.lib" "C:\Program Files\ITK\lib\ITKBiasCorrection-4.12.lib" "C:\Program Files\ITK\lib\ITKBioCell-4.12.lib" "C:\Program Files\ITK\lib\ITKDICOMParser-4.12.lib" "C:\Program Files\ITK\lib\ITKIOSpatialObjects-4.12.lib" "C:\Program Files\ITK\lib\ITKFEM-4.12.lib" "C:\Program Files\ITK\lib\ITKgiftiio-4.12.lib" "C:\Program Files\ITK\lib\ITKIOMesh-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUAnisotropicSmoothing-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUPDEDeformableRegistration-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUSmoothing-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUThresholding-4.12.lib" "C:\Program Files\ITK\lib\libitkhdf5_cpp_D.lib" "C:\Program Files\ITK\lib\libitkhdf5_D.lib" "C:\Program Files\ITK\lib\ITKIOBioRad-4.12.lib" "C:\Program Files\ITK\lib\ITKIOCSV-4.12.lib" "C:\Program Files\ITK\lib\ITKIOGE-4.12.lib" "C:\Program Files\ITK\lib\ITKIOSiemens-4.12.lib" "C:\Program Files\ITK\lib\ITKIOHDF5-4.12.lib" "C:\Program Files\ITK\lib\ITKIOLSM-4.12.lib" "C:\Program Files\ITK\lib\ITKIOMRC-4.12.lib" "C:\Program Files\ITK\lib\ITKIOStimulate-4.12.lib" "C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib" "C:\Program Files\ITK\lib\ITKIOTransformHDF5-4.12.lib" "C:\Program Files\ITK\lib\ITKIOTransformInsightLegacy-4.12.lib" "C:\Program Files\ITK\lib\ITKIOTransformMatlab-4.12.lib" "C:\Program Files\ITK\lib\ITKKLMRegionGrowing-4.12.lib" "C:\Program Files\ITK\lib\ITKVTK-4.12.lib" "C:\Program Files\ITK\lib\ITKWatersheds-4.12.lib" "C:\Program Files\ITK\lib\ITKOptimizersv4-4.12.lib" "C:\Program Files\ITK\lib\ITKVideoIO-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmMSFF-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmDICT-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmIOD-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmDSED-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmCommon-4.12.lib" crypt32.lib "C:\Program Files\ITK\lib\itkgdcmjpeg8-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmjpeg12-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmjpeg16-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmopenjpeg-4.12.lib" "C:\Program Files\ITK\lib\itkgdcmcharls-4.12.lib" rpcrt4.lib "C:\Program Files\ITK\lib\itkjpeg-4.12.lib" "C:\Program Files\ITK\lib\ITKIOXML-4.12.lib" "C:\Program Files\ITK\lib\ITKMetaIO-4.12.lib" comctl32.lib wsock32.lib "C:\Program Files\ITK\lib\ITKEXPAT-4.12.lib" "C:\Program Files\ITK\lib\ITKniftiio-4.12.lib" "C:\Program Files\ITK\lib\ITKznz-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUFiniteDifference-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUImageFilterBase-4.12.lib" "C:\Program Files\ITK\lib\ITKGPUCommon-4.12.lib" "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64\OpenCL.lib" "C:\Program Files\ITK\lib\itkzlib-4.12.lib" "C:\Program Files\ITK\lib\ITKIOIPL-4.12.lib" "C:\Program Files\ITK\lib\ITKIOTIFF-4.12.lib" "C:\Program Files\ITK\lib\ITKIOTransformBase-4.12.lib" "C:\Program Files\ITK\lib\ITKTransformFactory-4.12.lib" "C:\Program Files\ITK\lib\ITKSpatialObjects-4.12.lib" "C:\Program Files\ITK\lib\ITKMesh-4.12.lib" "C:\Program Files\ITK\lib\ITKTransform-4.12.lib" "C:\Program Files\ITK\lib\ITKPath-4.12.lib" "C:\Program Files\ITK\lib\ITKOptimizers-4.12.lib" "C:\Program Files\ITK\lib\ITKStatistics-4.12.lib" "C:\Program Files\ITK\lib\itkNetlibSlatec-4.12.lib" "C:\Program Files\ITK\lib\ITKIOImageBase-4.12.lib" "C:\Program Files\ITK\lib\ITKVideoCore-4.12.lib" "C:\Program Files\ITK\lib\ITKCommon-4.12.lib" "C:\Program Files\ITK\lib\itksys-4.12.lib" ws2_32.lib Psapi.lib "C:\Program Files\ITK\lib\ITKVNLInstantiation-4.12.lib" "C:\Program Files\ITK\lib\itkvnl_algo-4.12.lib" "C:\Program Files\ITK\lib\itkvnl-4.12.lib" "C:\Program Files\ITK\lib\itkv3p_netlib-4.12.lib" "C:\Program Files\ITK\lib\itknetlib-4.12.lib" "C:\Program Files\ITK\lib\itkvcl-4.12.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/ITKSNAP/itk-snap- bin/Debug/iteratorTests.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/ITKSNAP/itk-snap- bin/Debug/iteratorTests.lib" /MACHINE:X64   /machine:x64 iteratorTests.dir\Debug\itkRegionOfInterestImageFilterTest.obj
+         iteratorTests.dir\Debug\itkIteratorTests.obj
+         iteratorTests.dir\Debug\itkImageIteratorsForwardBackwardTest.obj
+         iteratorTests.dir\Debug\itkImageIteratorTest.obj
+         iteratorTests.dir\Debug\itkImageIteratorWithIndexTest.obj
+         iteratorTests.dir\Debug\itkImageRegionConstIteratorWithOnlyIndexTest.obj
+         iteratorTests.dir\Debug\itkImageRegionIteratorTest.obj
+         iteratorTests.dir\Debug\itkImageScanlineIteratorTest1.obj
+         iteratorTests.dir\Debug\iteratorTests.obj
+         iteratorTests.vcxproj -> C:\ITKSNAP\itk-snap- bin\Debug\iteratorTests.exe
+     1>專案 "C:\ITKSNAP\itk-snap- bin\iteratorTests.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:12.72

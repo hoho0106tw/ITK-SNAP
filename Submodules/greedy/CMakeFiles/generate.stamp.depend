@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMakeLists.txt
+C:/ITKSNAP/itk-snap-src/Submodules/greedy/CMake/PYVersion.cmake
+C:/ITKSNAP/itk-snap-src/CMake/rpavlik/GetGitRevisionDescription.cmake
+C:/ITKSNAP/itk-snap-src/.git/modules/Submodules/greedy/HEAD
+C:/ITKSNAP/itk-snap-src/CMake/rpavlik/GetGitRevisionDescription.cmake.in
+C:/ITKSNAP/itk-snap- bin/Submodules/greedy/CMakeFiles/git-data/grabRef.cmake
+C:/ITKSNAP/itk-snap-src/.git/modules/Submodules/greedy/HEAD
+C:/ITKSNAP/itk-snap-src/CMake/GitBranch.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindGit.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.8/Modules/CMakeDependentOption.cmake
+C:/Program Files/ITK/lib/cmake/ITK-4.12/ITKConfigVersion.cmake
+C:/Program Files/ITK/lib/cmake/ITK-4.12/ITKConfig.cmake
+C:/Program Files/ITK/lib/cmake/ITK-4.12/ITKModuleAPI.cmake
+C:/Program Files/ITK/lib/cmake/ITK-4.12/UseITK.cmake
+C:/Program Files/ITK/lib/cmake/ITK-4.12/itkImageIOFactoryRegisterManager.h.in
+C:/Program Files/ITK/lib/cmake/ITK-4.12/itkTransformIOFactoryRegisterManager.h.in
+C:/ITKSNAP/itk-snap-src/Submodules/greedy/src/GreedyVersion.cxx.in

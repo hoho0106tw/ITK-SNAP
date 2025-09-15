@@ -1,0 +1,1381 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\AnnotationToolPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\CollapsableGroupBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ColorLabelQuickListWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ColorMapInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ContrastInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\CursorInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\DisplayLayoutInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\DICOMListingTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\FileChooserPanelWithHistory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\HistoryQListModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ImageInfoInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LabelInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LabelMiniInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LabelSelectionButton.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LatentITKEventNotifier.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LayerInspectorRowDelegate.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\MetadataInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\GeneralLayerInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\PaintbrushToolPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\PolygonToolPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QActionButton.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QColorButtonWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QDoubleSlider.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QDoubleSliderWithEditor.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtFlowLayout.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtHideOnDeactivateContainer.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtIPCManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtRendererPlatformSupport.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtReporterDelegates.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtWarningDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtWidgetActivator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\RecentHistoryItemsView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SnakeToolROIPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SnakeWizardPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SNAPComponent.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SNAPQApplication.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SNAPQtCommon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SliceViewPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SynchronizationInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\TagListWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ViewPanel3D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\VoxelIntensityQTableModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ZoomInspector.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\External\ColorWheel\ColorWheel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\ModelView\GMMTableModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\AnnotationInteractionMode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\ColorMapBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\CrosshairsInteractionMode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\GenericSliceView.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\GenericView3D.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\InteractionModeClient.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtAbstractOpenGLBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtInteractionDelegateWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtSimpleOpenGLBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtVTKInteractionDelegateWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtVTKRenderWindowBox.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\PaintbrushInteractionMode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\PolygonDrawingInteractionMode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\RegistrationInteractionMode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\SliceWindowInteractionDelegateWidget.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\SnakeROIInteractionMode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\ThumbnailInteractionMode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\AboutDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\AnnotationEditDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DropActionDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ImageIODialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ImageIOWizard.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ImageIOWizard\OverlayRolePage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\InterpolateLabelsDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LabelEditorDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LayerInspectorDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LabelSelectionPopup.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MainControlPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MainImageWindow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\PreferencesDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\QtStyles.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ReorientImageDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ResampleDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SaveModifiedLayersDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SimpleFileDialogWithHistory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SnakeParameterDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SpeedImageDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SplashPanel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\StatisticsDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS\DistributedSegmentationDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS\DownloadTicketDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportWizard.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportModePage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportBrowsePage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\Registration\RegistrationDialog.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Testing\GUI\Qt\SNAPTestQt.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_AnnotationToolPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_CollapsableGroupBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_ColorLabelQuickListWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_ColorMapInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_ContrastInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_CursorInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_DICOMListingTable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_DisplayLayoutInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_FileChooserPanelWithHistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_HistoryQListModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_ImageInfoInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_LabelInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_LabelMiniInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_LabelSelectionButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_LatentITKEventNotifier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_LayerInspectorRowDelegate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_MetadataInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_GeneralLayerInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_PaintbrushToolPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_PolygonToolPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QActionButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QColorButtonWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QDoubleSlider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QDoubleSliderWithEditor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QtFlowLayout.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QtHideOnDeactivateContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QtIPCManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QtWarningDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_QtWidgetActivator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_RecentHistoryItemsView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_SnakeToolROIPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_SnakeWizardPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_SNAPComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_SNAPQApplication.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_SliceViewPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_SynchronizationInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_TagListWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_ViewPanel3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_VoxelIntensityQTableModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Components\moc_ZoomInspector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Coupling\moc_QtWidgetCoupling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\External\ColorWheel\moc_ColorWheel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\ModelView\moc_GMMTableModel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_AnnotationInteractionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_ColorMapBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_CrosshairsInteractionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_GenericSliceView.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_GenericView3D.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_QtAbstractOpenGLBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_QtInteractionDelegateWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_QtSimpleOpenGLBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_QtVTKInteractionDelegateWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_QtVTKRenderWindowBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_PaintbrushInteractionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_PolygonDrawingInteractionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_RegistrationInteractionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_SliceWindowInteractionDelegateWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_SnakeROIInteractionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_TestOpenGLDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\View\moc_ThumbnailInteractionMode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_AboutDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_AnnotationEditDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_DropActionDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_ImageIODialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_ImageIOWizard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\ImageIOWizard\moc_OverlayRolePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_InterpolateLabelsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_LabelEditorDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_LayerInspectorDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_LabelSelectionPopup.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_MainControlPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_MainImageWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_PreferencesDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_ReorientImageDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_ResampleDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_SaveModifiedLayersDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_SimpleFileDialogWithHistory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_SnakeParameterDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_SpeedImageDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_SplashPanel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\moc_StatisticsDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\DSS\moc_DistributedSegmentationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\DSS\moc_DownloadTicketDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\MeshExportWizard\moc_MeshExportWizard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\MeshExportWizard\moc_MeshExportModePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\MeshExportWizard\moc_MeshExportBrowsePage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\GUI\Qt\Windows\Registration\moc_RegistrationDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\Testing\GUI\Qt\moc_SNAPTestQt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\qrc_SNAPResources.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\qrc_SNAPResources_Linux.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\qrc_SNAPResources_MacOS.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\qrc_SNAPResources_Windows.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\qrc_TestingScripts.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\AnnotationToolPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\CollapsableGroupBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ColorLabelQuickListWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ColorMapInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ContrastInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\CursorInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\DICOMListingTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\DisplayLayoutInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\FileChooserPanelWithHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\HistoryQListModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ImageInfoInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LabelInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LabelMiniInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LabelSelectionButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LatentITKEventNotifier.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LayerInspectorRowDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\MetadataInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\GeneralLayerInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\PaintbrushToolPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\PolygonToolPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QActionButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QColorButtonWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QDoubleSlider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QDoubleSliderWithEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtFlowLayout.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtHideOnDeactivateContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtIPCManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtWarningDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtWidgetActivator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\RecentHistoryItemsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SnakeToolROIPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SnakeWizardPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SNAPComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SNAPQApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SliceViewPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SynchronizationInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\TagListWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ViewPanel3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\VoxelIntensityQTableModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ZoomInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtWidgetCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\External\ColorWheel\ColorWheel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\ModelView\GMMTableModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\AnnotationInteractionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\ColorMapBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\CrosshairsInteractionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\GenericSliceView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\GenericView3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtAbstractOpenGLBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtInteractionDelegateWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtSimpleOpenGLBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtVTKInteractionDelegateWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\QtVTKRenderWindowBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\PaintbrushInteractionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\PolygonDrawingInteractionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\RegistrationInteractionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\SliceWindowInteractionDelegateWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\SnakeROIInteractionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\TestOpenGLDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\View\ThumbnailInteractionMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\AboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\AnnotationEditDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DropActionDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ImageIODialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ImageIOWizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ImageIOWizard\OverlayRolePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\InterpolateLabelsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LabelEditorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LayerInspectorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LabelSelectionPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MainControlPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MainImageWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\PreferencesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ReorientImageDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ResampleDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SaveModifiedLayersDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SimpleFileDialogWithHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SnakeParameterDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SpeedImageDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SplashPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\StatisticsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS\DistributedSegmentationDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS\DownloadTicketDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportWizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportModePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportBrowsePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\Registration\RegistrationDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Testing\GUI\Qt\SNAPTestQt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ProcessEventsITKCommand.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtCursorOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtRendererPlatformSupport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtReporterDelegates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SNAPQtCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\SNAPOpenGLWidget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\TagListWidgetCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtAbstractButtonCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtAbstractItemViewCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtActionCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtCheckBoxCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtColorWheelCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtComboBoxCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtDoubleSliderWithEditorCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtDoubleSpinBoxCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtLabelCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtLineEditCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtListWidgetCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtProgressBarCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtRadioButtonCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtScrollbarCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtSliderCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtSpinBoxCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtTableWidgetCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling\QtWidgetArrayCoupling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_AnnotationToolPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_CollapsableGroupBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_ColorMapInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_ContrastInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_CursorInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_DisplayLayoutInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_FileChooserPanelWithHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_ImageInfoInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_LabelInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_LabelMiniInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_LayerInspectorRowDelegate.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_MetadataInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_GeneralLayerInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_PaintbrushToolPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_PolygonToolPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_QDoubleSliderWithEditor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_QtWarningDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_RecentHistoryItemsView.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SliceViewPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SnakeToolROIPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SnakeWizardPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SynchronizationInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_ViewPanel3D.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_ZoomInspector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_AboutDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_AnnotationEditDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_DropActionDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_ImageIODialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_OverlayRolePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_InterpolateLabelsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_LabelEditorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_LayerInspectorDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_LabelSelectionPopup.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_MainControlPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_MainImageWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_PreferencesDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_ReorientImageDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_ResampleDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SaveModifiedLayersDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SimpleFileDialogWithHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SnakeParameterDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SpeedImageDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_SplashPanel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_StatisticsDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_DistributedSegmentationDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_DownloadTicketDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_MeshExportWizard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_MeshExportModePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_MeshExportBrowsePage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\ui_RegistrationDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\CMakeLists.txt" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_AnnotationToolPanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_CollapsableGroupBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_ColorLabelQuickListWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_ColorMapInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_ContrastInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_CursorInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_DICOMListingTable.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_DisplayLayoutInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_FileChooserPanelWithHistory.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_HistoryQListModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_ImageInfoInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_LabelInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_LabelMiniInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_LabelSelectionButton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_LatentITKEventNotifier.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_LayerInspectorRowDelegate.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_MetadataInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_GeneralLayerInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_PaintbrushToolPanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_PolygonToolPanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QActionButton.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QColorButtonWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QDoubleSlider.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QDoubleSliderWithEditor.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QtFlowLayout.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QtHideOnDeactivateContainer.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QtIPCManager.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QtWarningDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_QtWidgetActivator.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_RecentHistoryItemsView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_SnakeToolROIPanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_SnakeWizardPanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_SNAPComponent.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_SNAPQApplication.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_SliceViewPanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_SynchronizationInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_TagListWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_ViewPanel3D.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_VoxelIntensityQTableModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c26b52811194e3fae2c910b5ed1477b1\moc_ZoomInspector.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c2d6c35dd70fb786018bd1779af75fb7\moc_QtWidgetCoupling.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\fe6c7cd2beed001d52bcf7a3b8d8ae64\moc_ColorWheel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\9f85b3b15ba70de61636cd62ee73f996\moc_GMMTableModel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_AnnotationInteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_ColorMapBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_CrosshairsInteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_GenericSliceView.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_GenericView3D.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_QtAbstractOpenGLBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_QtInteractionDelegateWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_QtSimpleOpenGLBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_QtVTKInteractionDelegateWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_QtVTKRenderWindowBox.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_PaintbrushInteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_PolygonDrawingInteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_RegistrationInteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_SliceWindowInteractionDelegateWidget.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_SnakeROIInteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_TestOpenGLDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\1183bed2f29029d224973aed1fdf3330\moc_ThumbnailInteractionMode.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_AboutDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_AnnotationEditDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_DropActionDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_ImageIODialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_ImageIOWizard.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\54d178bf7fc4becd3fca99e35da644de\moc_OverlayRolePage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_InterpolateLabelsDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_LabelEditorDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_LayerInspectorDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_LabelSelectionPopup.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_MainControlPanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_MainImageWindow.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_PreferencesDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_ReorientImageDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_ResampleDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_SaveModifiedLayersDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_SimpleFileDialogWithHistory.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_SnakeParameterDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_SpeedImageDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_SplashPanel.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\c7b6e38042af7ec42425cfa61c1cfc7a\moc_StatisticsDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\4f207400b1404164316c3f75c67b59dc\moc_DistributedSegmentationDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\4f207400b1404164316c3f75c67b59dc\moc_DownloadTicketDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\f9f9042a80ce24035d421c5ff09cd2be\moc_MeshExportWizard.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\f9f9042a80ce24035d421c5ff09cd2be\moc_MeshExportModePage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\f9f9042a80ce24035d421c5ff09cd2be\moc_MeshExportBrowsePage.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a7c86abcfd199a292d73e6942d656091\moc_RegistrationDialog.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\4e0bed2c05cbcb06e7ddbe5e4793d980\moc_SNAPTestQt.cpp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\AnnotationToolPanel.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\CollapsableGroupBox.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ColorMapInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ContrastInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\CursorInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\DisplayLayoutInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\FileChooserPanelWithHistory.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ImageInfoInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LabelInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LabelMiniInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\LayerInspectorRowDelegate.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\MetadataInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\GeneralLayerInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\PaintbrushToolPanel.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\PolygonToolPanel.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QDoubleSliderWithEditor.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\QtWarningDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\RecentHistoryItemsView.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SliceViewPanel.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SnakeToolROIPanel.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SnakeWizardPanel.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\SynchronizationInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ViewPanel3D.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Components\ZoomInspector.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\AboutDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\AnnotationEditDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DropActionDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ImageIODialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ImageIOWizard\OverlayRolePage.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\InterpolateLabelsDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LabelEditorDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LayerInspectorDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\LabelSelectionPopup.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MainControlPanel.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MainImageWindow.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\PreferencesDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ReorientImageDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\ResampleDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SaveModifiedLayersDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SimpleFileDialogWithHistory.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SnakeParameterDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SpeedImageDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\SplashPanel.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\StatisticsDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS\DistributedSegmentationDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS\DownloadTicketDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportWizard.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportModePage.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard\MeshExportBrowsePage.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\Registration\RegistrationDialog.ui" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Resources\SNAPResources.qrc" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Resources\SNAPResources_Linux.qrc" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Resources\SNAPResources_MacOS.qrc" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\GUI\Qt\Resources\SNAPResources_Windows.qrc" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\Testing\GUI\Qt\TestingScripts.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8BC20A2-703B-3E43-9D06-CC3D107A8537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5F6F7CED-756C-3C0E-BF3E-EDFEA23A751B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{081B7227-36D8-3CBE-86E3-D152D04851AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,17 @@
+﻿已經開始建置於 2021/6/30 上午 10:31:33。
+     1>節點 2 (Rebuild 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\ZERO_CHECK.vcxproj"。
+     1>CustomBuild:
+         Checking Build System
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Submodules/c3d/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Submodules/c3d/itkextras/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Submodules/c3d/itkextras/PovRayIO/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Submodules/c3d/itkextras/VoxBoIO/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Submodules/c3d/itkextras/RandomForest/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Submodules/greedy/CMakeFiles/generate.stamp is up-to-date.
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Utilities/Workspace/CMakeFiles/generate.stamp is up-to-date.
+     1>專案 "C:\ITKSNAP\itk-snap- bin\ZERO_CHECK.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.22

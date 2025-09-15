@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AddImages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AlignByLandmarks.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\AntiAliasImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ApplyMetric.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ApplyNoise.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\BinaryHoleFill.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\BiasFieldCorrectionN4.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\BinaryImageCentroid.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\BinaryMathOperation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Canny.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ClipImageIntensity.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ComputeFFT.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ComputeMoments.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ComputeOverlaps.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ConnectedComponents.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Convolution.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\CoordinateMap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\CopyTransform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\CreateImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\CreateInterpolator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\DicomSeriesList.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExportPatches.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtractRegion.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtractSlice.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ExtrudeSegmentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\FillBackgroundWithNeighborhoodNoise.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\FlipImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\HaralickFeatures.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\HessianEigenValues.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\HessianObjectness.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\HistogramMatch.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ImageERF.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ImageGradient.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ImageLaplacian.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\GeneralLinearModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelOverlapMeasures.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LabelStatistics.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LandmarksToSpheres.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LaplacianSharpening.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\LevelSetSegmentation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MatchBoundingBoxes.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MathematicalMorphology.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MeanFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MedianFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MixtureModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MomentsFeatures.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MRFVote.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\MultiplyImages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizeLocalWindow.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\NormalizedCrossCorrelation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\OverlayLabelImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\OtsuThreshold.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\PadImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\PeronaMalik.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\PrintImageInfo.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Rank.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ReadImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ReciprocalImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ReorderStack.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ReplaceIntensities.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ResampleImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ResliceImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RetainLabels.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFApply.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\RFTrain.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SampleImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ScaleShiftImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ScalarToRGB.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SetSform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SetOrientation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SignedDistanceTransform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SLICSuperVoxel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SmoothImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SplitMultilabelImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\StapleAlgorithm.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\StructureTensorEigenValues.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\SwapDimensions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\TestImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\ThresholdImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\TileImages.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\TrimImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\UnaryMathOperation.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\UpdateMetadataKey.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\Vote.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\VoxelwiseComponentFunction.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\VoxelwiseRegression.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WarpImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WarpLabelImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WeightedSum.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WeightedSumVoxelwise.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WrapDimension.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters\WriteImage.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\Submodules\c3d\ConvertImageVersion.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\Submodules\c3d\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8BC20A2-703B-3E43-9D06-CC3D107A8537}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

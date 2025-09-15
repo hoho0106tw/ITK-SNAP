@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\ITKSNAP\itk-snap- bin\SNAPCommon.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\AbstractModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\AbstractPropertyContainerModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\AffineTransformHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\ColorLabelPropertyModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\CommandLineArgumentParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\EventBucket.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\ExtendedGDCMSerieHelper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\HistoryManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\IPCHandler.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\IRISException.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\Rebroadcaster.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\Registry.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\SNAPEvents.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\SNAPOpenGL.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\SystemInterface.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\TagList.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\ThreadSpecificData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\Trackball.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkVoxBoCUBImageIO.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkVoxBoCUBImageIOFactory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Common\JSon\jsoncpp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ColorLabelTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ColorMap.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ColorMapPresetManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ImageCoordinateGeometry.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ImageCoordinateTransform.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\IRISDisplayGeometry.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\LabelUseHistory.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\MetaDataAccess.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\SegmentationStatistics.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\SNAPAppearanceSettings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\SNAPRegistryIO.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Common\SNAPSegmentationROISettings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\DefaultBehaviorSettings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\GenericImageData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\GlobalState.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\ImageAnnotationData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\ImageIODelegates.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\IRISApplication.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\IRISImageData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\LayerIterator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\SNAPImageData.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\UndoDataManager_LabelType.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\CommonRepresentationPolicy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\DisplayMappingPolicy.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ImageWrapperBase.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ImageWrapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\InputSelectionImageFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\LabelImageWrapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\GuidedNativeImageIO.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\MultiChannelDisplayMode.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ScalarImageHistogram.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ScalarImageWrapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\VectorImageWrapper.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SnakeParameters.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SnakeParametersPreviewPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\AllPurposeProgressAccumulator.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\GuidedMeshIO.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\MultiLabelMeshPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\LevelSetMeshPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\MeshManager.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\MeshOptions.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\VTKMeshPipeline.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\EdgePreprocessingSettings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\PreprocessingFilterConfigTraits.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\ThresholdSettings.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\EMGaussianMixtures.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\Gaussian.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\GaussianMixtureModel.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\KMeansPlusPlus.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\UnsupervisedClustering.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\RFClassificationEngine.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\Texture\MomentTextures.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\IntensityCurveVTK.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\IntensityToColorLookupTableImageFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\LookupTableIntensityMappingFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\RGBALookupTableIntensityMappingFilter.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI\CSVParser.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI\FormattedTable.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI\RESTClient.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI\WorkspaceAPI.cxx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\ITKSNAP\itk-snap- bin\GPUSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\AbstractModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\AbstractPropertyContainerModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\AffineTransformHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ColorLabelPropertyModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\CommandLineArgumentParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\Credits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ExtendedGDCMSerieHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\HistoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ImageFunctions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\IPCHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\IRISException.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\IRISVectorTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\IRISVectorTypes.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\IRISVectorTypesToITKConversion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkBSplineScatteredDataPointSetToImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkBSplineScatteredDataPointSetToImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkBinaryDiamondStructuringElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkBinaryDiamondStructuringElement.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkCoxDeBoorBSplineKernelFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkCoxDeBoorBSplineKernelFunction.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkMorphologicalContourInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkMorphologicalContourInterpolator.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkParallelSparseFieldLevelSetImageFilterBugFix.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkParallelSparseFieldLevelSetImageFilterBugFix.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkTopologyPreservingDigitalSurfaceEvolutionImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkTopologyPreservingDigitalSurfaceEvolutionImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkVoxBoCUBImageIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ITKExtras\itkVoxBoCUBImageIOFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\JSon\json\json.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\JSon\json\json-forwards.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\PresetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\PresetManager.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\PropertyModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\Rebroadcaster.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\Registry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\SNAPBorlandDummyTypes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\SNAPCommon.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\SNAPOpenGL.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\SNAPEvents.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\SystemInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\TagList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\ThreadSpecificData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Common\Trackball.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ColorLabel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ColorLabelTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ColorMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ColorMapPresetManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ImageCoordinateGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ImageCoordinateTransform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\IRISDisplayGeometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\LabelUseHistory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\SegmentationStatistics.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ImageRayIntersectionFinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\ImageRayIntersectionFinder.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\MetaDataAccess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\SNAPAppearanceSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\SNAPRegistryIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Common\SNAPSegmentationROISettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\DefaultBehaviorSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\GenericImageData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\GlobalState.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\ImageAnnotationData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\ImageIODelegates.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\IRISApplication.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\IRISImageData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\LayerAssociation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\LayerAssociation.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\LayerIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\SegmentationUpdateIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\SNAPImageData.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\UndoDataManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Framework\UndoDataManager.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\CommonRepresentationPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\DisplayMappingPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\GuidedNativeImageIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ImageWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ImageWrapperBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ImageWrapperTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\MultiChannelDisplayMode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\VectorToScalarImageAccessor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImage.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageConstIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionConstIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageScanlineConstIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageScanlineIterator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLERegionOfInterestImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLERegionOfInterestImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\InputSelectionImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\LabelImageWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\LabelToRGBAFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\NativeIntensityMappingPolicy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ScalarImageHistogram.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ScalarImageWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ThreadedHistogramImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\ThreadedHistogramImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\VectorImageWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\CPUImageToGPUImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\CPUImageToGPUImageFilter.hxx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\LevelSetExtensionFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SnakeParametersPreviewPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SNAPAdvectionFieldImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SNAPAdvectionFieldImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SNAPLevelSetDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SNAPLevelSetDriver.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SNAPLevelSetFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SNAPLevelSetFunction.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SNAPLevelSetStopAndGoFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SNAPLevelSetStopAndGoFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\LevelSet\SnakeParameters.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\AllPurposeProgressAccumulator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\GuidedMeshIO.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\MultiLabelMeshPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\LevelSetMeshPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\MeshManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\MeshOptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Mesh\VTKMeshPipeline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\EdgePreprocessingImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\EdgePreprocessingImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\EdgePreprocessingSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMMClassifyImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMMClassifyImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\PreprocessingFilterConfigTraits.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\SlicePreviewFilterWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\SlicePreviewFilterWrapper.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\SmoothBinaryThresholdImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\SmoothBinaryThresholdImageFilter.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\ThresholdSettings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\EMGaussianMixtures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\Gaussian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\GaussianMixtureModel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\KMeansPlusPlus.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM\UnsupervisedClustering.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\Texture\MomentTextures.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\ImageRegionConstIteratorWithIndexOverride.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\FastLinearInterpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\IRISSlicer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\IRISSlicer.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\IRISSlicer_RLE.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\IntensityCurveInterface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\IntensityCurveVTK.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\IntensityToColorLookupTableImageFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\LookupTableIntensityMappingFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\NonOrthogonalSlicer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\NonOrthogonalSlicer.txx">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\Slicing\RGBALookupTableIntensityMappingFilter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI\CSVParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI\FormattedTable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI\RESTClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI\WorkspaceAPI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{B8BC20A2-703B-3E43-9D06-CC3D107A8537}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5F6F7CED-756C-3C0E-BF3E-EDFEA23A751B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

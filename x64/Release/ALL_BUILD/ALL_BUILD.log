@@ -1,0 +1,10 @@
+﻿已經開始建置於 2021/6/30 上午 10:37:59。
+     1>節點 6 (Rebuild 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\ALL_BUILD.vcxproj"。
+     1>CustomBuild:
+         Building Custom Rule C:/ITKSNAP/itk-snap-src/CMakeLists.txt
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/CMakeFiles/generate.stamp is up-to-date.
+     1>專案 "C:\ITKSNAP\itk-snap- bin\ALL_BUILD.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:00.27

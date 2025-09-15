@@ -1,0 +1,222 @@
+﻿已經開始建置於 2021/6/30 上午 10:27:42。
+     1>節點 3 (Build 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\itksnaplogic.vcxproj"。
+     1>CustomBuild:
+         Building Custom Rule C:/ITKSNAP/itk-snap-src/CMakeLists.txt
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /I"C:\Program Files\ITK\include\ITK-4.12" /I"C:\Program Files\VTK\include\vtk-6.3" /I"C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include" /I"C:\ITKSNAP\itk-snap-src\Common" /I"C:\ITKSNAP\itk-snap-src\Common\ITKExtras" /I"C:\ITKSNAP\itk-snap-src\Common\JSon" /I"C:\ITKSNAP\itk-snap-src\Logic" /I"C:\ITKSNAP\itk-snap-src\Logic\Common" /I"C:\ITKSNAP\itk-snap-src\Logic\Framework" /I"C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper" /I"C:\ITKSNAP\itk-snap-src\Logic\LevelSet" /I"C:\ITKSNAP\itk-snap-src\Logic\Mesh" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\GMM" /I"C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\Texture" /I"C:\ITKSNAP\itk-snap-src\Logic\RLEImage" /I"C:\ITKSNAP\itk-snap-src\Logic\Slicing" /I"C:\ITKSNAP\itk-snap-src\Logic\WorkspaceAPI" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\api" /I"C:\ITKSNAP\itk-snap-src\Submodules\greedy\src" /I"C:\ITKSNAP\itk-snap-src\Submodules\greedy\src\ITKFilters\include" /I"C:\ITKSNAP\itk-snap-src\GUI" /I"C:\ITKSNAP\itk-snap-src\GUI\Model" /I"C:\ITKSNAP\itk-snap-src\GUI\Renderer" /I"C:\ITKSNAP\itk-snap-src\GUI\Renderer\OrientationWidget\Reorient" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Components" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Coupling" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\External" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\External\ColorWheel" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\ModelView" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Testing" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\View" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\DSS" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\MeshExportWizard" /I"C:\ITKSNAP\itk-snap-src\GUI\Qt\Windows\Registration" /I"C:\ITKSNAP\itk-snap-src\Testing\Logic" /I"C:\ITKSNAP\itk-snap-src\Testing\GUI\Qt" /I"C:\Program Files\ITK\lib\cmake\ITK-4.12\Utilities\zlib" /I"C:\ITKSNAP\itk-snap- bin" /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtWidgets /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtGui /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtCore /I"C:\Qt\Qt5.6.2\5.6\msvc2015_64\.\mkspecs\win32-msvc2015" /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtOpenGL /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtConcurrent /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtQml /IC:\Qt\Qt5.6.2\5.6\msvc2015_64\include\QtNetwork /I"C:\Program Files\ITK\include" /Zi /nologo /W3 /WX- /Od /Ob0 /D WIN32 /D _WINDOWS /D ITK_IO_FACTORY_REGISTER_MANAGER /D "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)" /D "vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\"" /D "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)" /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"itksnaplogic.dir\Debug\\" /Fd"itksnaplogic.dir\Debug\itksnaplogic.pdb" /Gd /TP /errorReport:prompt   /bigobj "C:\ITKSNAP\itk-snap- bin\SNAPCommon.cxx" "C:\ITKSNAP\itk-snap-src\Logic\Framework\IRISApplication.cxx" "C:\ITKSNAP\itk-snap-src\Logic\Framework\SNAPImageData.cxx" "C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\PreprocessingFilterConfigTraits.cxx"
+         SNAPCommon.cxx
+         IRISApplication.cxx
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<LabelImageWrapperTraits::ComponentType,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,unsigned short>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,unsigned short>,
+                     TPixel=LabelImageWrapperTraits::ComponentType
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionIterator.h(71): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<LabelImageWrapperTraits::ComponentType,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,unsigned short>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,unsigned short>,
+                     TPixel=LabelImageWrapperTraits::ComponentType
+                 ]
+         c:\itksnap\itk-snap-src\logic\imagewrapper\ImageWrapper.h(98): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<LabelImageWrapperTraits::ComponentType,3,unsigned short>' 之參考
+         c:\itksnap\itk-snap-src\logic\imagewrapper\ScalarImageWrapper.h(62): note: 請參閱要編譯的類別 樣板 具現化 'ImageWrapper<TTraits,TBase>' 之參考
+                 with
+                 [
+                     TTraits=LabelImageWrapperTraits,
+                     TBase=ScalarImageWrapperBase
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\LabelImageWrapper.h(11): note: 請參閱要編譯的類別 樣板 具現化 'ScalarImageWrapper<LabelImageWrapperTraits,ScalarImageWrapperBase>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(269): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(259): note: 編譯類別 樣板 成員函式 'void ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::AddVectorImage(TVectorImage *)' 時
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType,
+                     TVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(291): note: 請參閱所要編譯的函式 樣板 具現化 'void ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::AddVectorImage(TVectorImage *)' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType,
+                     TVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(229): note: 編譯類別 樣板 成員函式 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<3> &)' 時
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(120): note: 請參閱所要編譯的函式 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<3> &)' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(120): note: 請參閱要編譯的類別 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(89): note: 編譯類別 樣板 成員函式 'void GMMClassifyImageFilter<GMMPreprocessingFilterConfigTraits::GreyScalarType,GMMPreprocessingFilterConfigTraits::GreyVectorType,GMMPreprocessingFilterConfigTraits::SpeedType>::ThreadedGenerateData(const itk::ImageRegion<3> &,itk::ThreadIdType)' 時
+         C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\SlicePreviewFilterWrapper.h(126): note: 請參閱要編譯的類別 樣板 具現化 'GMMClassifyImageFilter<GMMPreprocessingFilterConfigTraits::GreyScalarType,GMMPreprocessingFilterConfigTraits::GreyVectorType,GMMPreprocessingFilterConfigTraits::SpeedType>' 之參考
+         C:\ITKSNAP\itk-snap-src\Logic\Framework\IRISApplication.cxx(153): note: 請參閱要編譯的類別 樣板 具現化 'SlicePreviewFilterWrapper<GMMPreprocessingFilterConfigTraits>' 之參考
+         SNAPImageData.cxx
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(113): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(101): note: 編譯類別 樣板 成員函式 'int RLEImage<LabelImageWrapperTraits::ComponentType,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,unsigned short>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 時
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,unsigned short>,
+                     TPixel=LabelImageWrapperTraits::ComponentType
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\RLEImage\RLEImageRegionIterator.h(71): note: 請參閱所要編譯的函式 樣板 具現化 'int RLEImage<LabelImageWrapperTraits::ComponentType,3,unsigned short>::SetPixel(std::vector<std::pair<CounterType,unsigned short>,std::allocator<_Ty>> &,__int64 &,__int64 &,const TPixel &)' 之參考
+                 with
+                 [
+                     CounterType=unsigned short,
+                     _Ty=std::pair<unsigned short,unsigned short>,
+                     TPixel=LabelImageWrapperTraits::ComponentType
+                 ]
+         c:\itksnap\itk-snap-src\logic\imagewrapper\ImageWrapper.h(98): note: 請參閱要編譯的類別 樣板 具現化 'RLEImage<LabelImageWrapperTraits::ComponentType,3,unsigned short>' 之參考
+         c:\itksnap\itk-snap-src\logic\imagewrapper\ScalarImageWrapper.h(62): note: 請參閱要編譯的類別 樣板 具現化 'ImageWrapper<TTraits,TBase>' 之參考
+                 with
+                 [
+                     TTraits=LabelImageWrapperTraits,
+                     TBase=ScalarImageWrapperBase
+                 ]
+         C:\ITKSNAP\itk-snap-src\Logic\ImageWrapper\LabelImageWrapper.h(11): note: 請參閱要編譯的類別 樣板 具現化 'ScalarImageWrapper<LabelImageWrapperTraits,ScalarImageWrapperBase>' 之參考
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(131): warning C4018: '<': signed/unsigned 不相符
+     1>c:\itksnap\itk-snap-src\logic\rleimage\RLEImage.txx(141): warning C4018: '<': signed/unsigned 不相符
+         PreprocessingFilterConfigTraits.cxx
+     1>c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(269): warning C4018: '<': signed/unsigned 不相符
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(259): note: 編譯類別 樣板 成員函式 'void ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::AddVectorImage(TVectorImage *)' 時
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType,
+                     TVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(291): note: 請參閱所要編譯的函式 樣板 具現化 'void ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::AddVectorImage(TVectorImage *)' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType,
+                     TVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\ImageCollectionToImageFilter.h(229): note: 編譯類別 樣板 成員函式 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<3> &)' 時
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(120): note: 請參閱所要編譯的函式 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>::ImageCollectionConstRegionIteratorWithIndex(const itk::ImageRegion<3> &)' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(120): note: 請參閱要編譯的類別 樣板 具現化 'ImageCollectionConstRegionIteratorWithIndex<TInputImage,TInputVectorImage>' 之參考
+                 with
+                 [
+                     TInputImage=GMMPreprocessingFilterConfigTraits::GreyScalarType,
+                     TInputVectorImage=GMMPreprocessingFilterConfigTraits::GreyVectorType
+                 ]
+         c:\itksnap\itk-snap-src\logic\preprocessing\GMMClassifyImageFilter.txx(89): note: 編譯類別 樣板 成員函式 'void GMMClassifyImageFilter<GMMPreprocessingFilterConfigTraits::GreyScalarType,GMMPreprocessingFilterConfigTraits::GreyVectorType,GMMPreprocessingFilterConfigTraits::SpeedType>::ThreadedGenerateData(const itk::ImageRegion<3> &,itk::ThreadIdType)' 時
+         C:\ITKSNAP\itk-snap-src\Logic\Preprocessing\PreprocessingFilterConfigTraits.cxx(151): note: 請參閱要編譯的類別 樣板 具現化 'GMMClassifyImageFilter<GMMPreprocessingFilterConfigTraits::GreyScalarType,GMMPreprocessingFilterConfigTraits::GreyVectorType,GMMPreprocessingFilterConfigTraits::SpeedType>' 之參考
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\ITKSNAP\itk-snap- bin\Debug\itksnaplogic.lib" /NOLOGO /MACHINE:X64   /machine:x64 itksnaplogic.dir\Debug\SNAPCommon.obj
+         itksnaplogic.dir\Debug\AbstractModel.obj
+         itksnaplogic.dir\Debug\AbstractPropertyContainerModel.obj
+         itksnaplogic.dir\Debug\AffineTransformHelper.obj
+         itksnaplogic.dir\Debug\ColorLabelPropertyModel.obj
+         itksnaplogic.dir\Debug\CommandLineArgumentParser.obj
+         itksnaplogic.dir\Debug\EventBucket.obj
+         itksnaplogic.dir\Debug\ExtendedGDCMSerieHelper.obj
+         itksnaplogic.dir\Debug\HistoryManager.obj
+         itksnaplogic.dir\Debug\IPCHandler.obj
+         itksnaplogic.dir\Debug\IRISException.obj
+         itksnaplogic.dir\Debug\Rebroadcaster.obj
+         itksnaplogic.dir\Debug\Registry.obj
+         itksnaplogic.dir\Debug\SNAPEvents.obj
+         itksnaplogic.dir\Debug\SNAPOpenGL.obj
+         itksnaplogic.dir\Debug\SystemInterface.obj
+         itksnaplogic.dir\Debug\TagList.obj
+         itksnaplogic.dir\Debug\ThreadSpecificData.obj
+         itksnaplogic.dir\Debug\Trackball.obj
+         itksnaplogic.dir\Debug\itkVoxBoCUBImageIO.obj
+         itksnaplogic.dir\Debug\itkVoxBoCUBImageIOFactory.obj
+         itksnaplogic.dir\Debug\jsoncpp.obj
+         itksnaplogic.dir\Debug\ColorLabelTable.obj
+         itksnaplogic.dir\Debug\ColorMap.obj
+         itksnaplogic.dir\Debug\ColorMapPresetManager.obj
+         itksnaplogic.dir\Debug\ImageCoordinateGeometry.obj
+         itksnaplogic.dir\Debug\ImageCoordinateTransform.obj
+         itksnaplogic.dir\Debug\IRISDisplayGeometry.obj
+         itksnaplogic.dir\Debug\LabelUseHistory.obj
+         itksnaplogic.dir\Debug\MetaDataAccess.obj
+         itksnaplogic.dir\Debug\SegmentationStatistics.obj
+         itksnaplogic.dir\Debug\SNAPAppearanceSettings.obj
+         itksnaplogic.dir\Debug\SNAPRegistryIO.obj
+         itksnaplogic.dir\Debug\SNAPSegmentationROISettings.obj
+         itksnaplogic.dir\Debug\DefaultBehaviorSettings.obj
+         itksnaplogic.dir\Debug\GenericImageData.obj
+         itksnaplogic.dir\Debug\GlobalState.obj
+         itksnaplogic.dir\Debug\ImageAnnotationData.obj
+         itksnaplogic.dir\Debug\ImageIODelegates.obj
+         itksnaplogic.dir\Debug\IRISApplication.obj
+         itksnaplogic.dir\Debug\IRISImageData.obj
+         itksnaplogic.dir\Debug\LayerIterator.obj
+         itksnaplogic.dir\Debug\SNAPImageData.obj
+         itksnaplogic.dir\Debug\UndoDataManager_LabelType.obj
+         itksnaplogic.dir\Debug\CommonRepresentationPolicy.obj
+         itksnaplogic.dir\Debug\DisplayMappingPolicy.obj
+         itksnaplogic.dir\Debug\ImageWrapperBase.obj
+         itksnaplogic.dir\Debug\ImageWrapper.obj
+         itksnaplogic.dir\Debug\InputSelectionImageFilter.obj
+         itksnaplogic.dir\Debug\LabelImageWrapper.obj
+         itksnaplogic.dir\Debug\GuidedNativeImageIO.obj
+         itksnaplogic.dir\Debug\MultiChannelDisplayMode.obj
+         itksnaplogic.dir\Debug\ScalarImageHistogram.obj
+         itksnaplogic.dir\Debug\ScalarImageWrapper.obj
+         itksnaplogic.dir\Debug\VectorImageWrapper.obj
+         itksnaplogic.dir\Debug\SnakeParameters.obj
+         itksnaplogic.dir\Debug\SnakeParametersPreviewPipeline.obj
+         itksnaplogic.dir\Debug\AllPurposeProgressAccumulator.obj
+         itksnaplogic.dir\Debug\GuidedMeshIO.obj
+         itksnaplogic.dir\Debug\MultiLabelMeshPipeline.obj
+         itksnaplogic.dir\Debug\LevelSetMeshPipeline.obj
+         itksnaplogic.dir\Debug\MeshManager.obj
+         itksnaplogic.dir\Debug\MeshOptions.obj
+         itksnaplogic.dir\Debug\VTKMeshPipeline.obj
+         itksnaplogic.dir\Debug\EdgePreprocessingSettings.obj
+         itksnaplogic.dir\Debug\PreprocessingFilterConfigTraits.obj
+         itksnaplogic.dir\Debug\ThresholdSettings.obj
+         itksnaplogic.dir\Debug\EMGaussianMixtures.obj
+         itksnaplogic.dir\Debug\Gaussian.obj
+         itksnaplogic.dir\Debug\GaussianMixtureModel.obj
+         itksnaplogic.dir\Debug\KMeansPlusPlus.obj
+         itksnaplogic.dir\Debug\UnsupervisedClustering.obj
+         itksnaplogic.dir\Debug\RFClassificationEngine.obj
+         itksnaplogic.dir\Debug\MomentTextures.obj
+         itksnaplogic.dir\Debug\IntensityCurveVTK.obj
+         itksnaplogic.dir\Debug\IntensityToColorLookupTableImageFilter.obj
+         itksnaplogic.dir\Debug\LookupTableIntensityMappingFilter.obj
+         itksnaplogic.dir\Debug\RGBALookupTableIntensityMappingFilter.obj
+         itksnaplogic.dir\Debug\CSVParser.obj
+         itksnaplogic.dir\Debug\FormattedTable.obj
+         itksnaplogic.dir\Debug\RESTClient.obj
+         itksnaplogic.dir\Debug\WorkspaceAPI.obj
+         itksnaplogic.vcxproj -> C:\ITKSNAP\itk-snap- bin\Debug\itksnaplogic.lib
+     1>專案 "C:\ITKSNAP\itk-snap- bin\itksnaplogic.vcxproj" (Build 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:11.15

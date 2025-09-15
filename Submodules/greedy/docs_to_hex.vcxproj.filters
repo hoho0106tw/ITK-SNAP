@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap-src\Submodules\greedy\CMakeLists.txt" />
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_main.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_init.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_recon.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_volmatch.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_voliter.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\a1e97315fa77f09baee596cc0868451d\stackg_usage_splat.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="C:\ITKSNAP\itk-snap- bin\CMakeFiles\8f12c13643eb15b0d386d9a7aa7afb7a\docs_to_hex.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="C:\ITKSNAP\itk-snap- bin\Submodules\greedy\CMakeFiles\docs_to_hex" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{081B7227-36D8-3CBE-86E3-D152D04851AD}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

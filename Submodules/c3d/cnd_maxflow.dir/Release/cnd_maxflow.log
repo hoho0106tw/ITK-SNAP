@@ -1,0 +1,23 @@
+﻿已經開始建置於 2021/6/30 上午 10:31:34。
+     1>節點 7 (Rebuild 目標) 上的專案 "C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_maxflow.vcxproj"。
+     1>CustomBuild:
+         Building Custom Rule C:/ITKSNAP/itk-snap-src/Submodules/c3d/CMakeLists.txt
+         CMake does not need to re-run because C:/ITKSNAP/itk-snap- bin/Submodules/c3d/CMakeFiles/generate.stamp is up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\CL.exe /c /I"C:\ITKSNAP\itk-snap- bin\ITKIOFactoryRegistration" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\include" /I"C:\Program Files\ITK\include\ITK-4.12" /I"C:\Program Files\VTK\include\vtk-6.3" /I"C:\ITKSNAP\cur\builds\libcurl-vc-x64-release-static-ipv6\include" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\adapters" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\VoxBoIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\PovRayIO" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\RandomForest" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\itkextras\Texture" /I"C:\ITKSNAP\itk-snap-src\Submodules\c3d\utilities\doc" /I"C:\ITKSNAP\itk-snap- bin\Submodules\c3d" /nologo /W3 /WX- /O2 /Ob2 /D WIN32 /D _WINDOWS /D NDEBUG /D ITK_IO_FACTORY_REGISTER_MANAGER /D "vtkRenderingContext2D_AUTOINIT=1(vtkRenderingContextOpenGL)" /D "vtkRenderingCore_INCLUDE=\"C:/ITKSNAP/itk-snap- bin/CMakeFiles/vtkRenderingCore_AUTOINIT_vtkInteractionStyle_vtkRenderingFreeType_vtkRenderingOpenGL.h\"" /D "vtkRenderingVolume_AUTOINIT=1(vtkRenderingVolumeOpenGL)" /D _CRT_SECURE_NO_DEPRECATE /D _SCL_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_WARNINGS /D NOMINMAX /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cnd_maxflow.dir\Release\\" /Fd"cnd_maxflow.dir\Release\cnd_maxflow.pdb" /Gd /TP /errorReport:prompt   /bigobj "C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3\GCoptimization.cpp" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3\LinkedBlockList.cpp" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3\graph.cpp" "C:\ITKSNAP\itk-snap-src\Submodules\c3d\external\GCv2p3\maxflow.cpp"
+         GCoptimization.cpp
+         LinkedBlockList.cpp
+         graph.cpp
+         maxflow.cpp
+         正在產生程式碼...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\x86_amd64\Lib.exe /OUT:"C:\ITKSNAP\itk-snap- bin\Submodules\c3d\Release\cnd_maxflow.lib" /NOLOGO /MACHINE:X64   /machine:x64 cnd_maxflow.dir\Release\GCoptimization.obj
+         cnd_maxflow.dir\Release\LinkedBlockList.obj
+         cnd_maxflow.dir\Release\graph.obj
+         cnd_maxflow.dir\Release\maxflow.obj
+         cnd_maxflow.vcxproj -> C:\ITKSNAP\itk-snap- bin\Submodules\c3d\Release\cnd_maxflow.lib
+     1>專案 "C:\ITKSNAP\itk-snap- bin\Submodules\c3d\cnd_maxflow.vcxproj" (Rebuild 目標) 建置完成。
+
+建置成功。
+
+經過時間 00:00:02.84
